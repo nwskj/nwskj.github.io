@@ -1,2 +1,0 @@
-# nwskj.github.io
-cyjz
