@@ -1,0 +1,774 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>半亩方塘 | 半亩方塘</title><meta name="author" content="邢剑锋"><meta name="copyright" content="邢剑锋"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="BMI &amp; BMR计算器                        tailwind.config &#x3D; {             theme: {                 extend: {                     colors: {                         primary: &#39;#3B82F6&#39;,">
+<meta property="og:type" content="website">
+<meta property="og:title" content="半亩方塘">
+<meta property="og:url" content="http://example.com/html/bmi.html">
+<meta property="og:site_name" content="半亩方塘">
+<meta property="og:description" content="BMI &amp; BMR计算器                        tailwind.config &#x3D; {             theme: {                 extend: {                     colors: {                         primary: &#39;#3B82F6&#39;,">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://s1.ax1x.com/2023/04/14/ppzyLAs.png">
+<meta property="article:published_time" content="2025-06-20T11:49:25.484Z">
+<meta property="article:modified_time" content="2025-06-20T11:49:25.484Z">
+<meta property="article:author" content="邢剑锋">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://s1.ax1x.com/2023/04/14/ppzyLAs.png"><link rel="shortcut icon" href="https://s1.ax1x.com/2023/04/14/ppzyLAs.png"><link rel="canonical" href="http://example.com/html/bmi.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":200},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  }
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '半亩方塘',
+  isPost: false,
+  isHome: false,
+  isHighlightShrink: true,
+  isToc: false,
+  postUpdate: '2025-06-20 11:49:25'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      if (id) link.id = id
+      link.onerror = reject
+      link.onload = link.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        link.onload = link.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(link)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="半亩方塘" type="application/atom+xml">
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://s1.ax1x.com/2023/04/14/ppzyLAs.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">24</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">5</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">2</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-book"></i><span> 人生计事</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="//"><i class="fa-fw fas fa-archive"></i><span> 人生计事</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-computer"></i><span> 继续教育</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/jy/tz/"><i class="fa-fw fas fa-computer"></i><span> 继续教育通知</span></a></li><li><a class="site-page child" href="/jy/gjkfdx/"><i class="fa-fw fas fa-computer"></i><span> 国家开放大学</span></a></li><li><a class="site-page child" href="/jy/ynkf/"><i class="fa-fw fas fa-computer"></i><span> 云南开放大学</span></a></li><li><a class="site-page child" href="/jy/lfjt/"><i class="fa-fw fas fa-computer"></i><span> 廊坊交通运输学校</span></a></li><li><a class="site-page child" href="/jy/zygbdsdx/"><i class="fa-fw fas fa-computer"></i><span> 中央广播电视大学</span></a></li><li><a class="site-page child" href="/jy/bm/"><i class="fa-fw fas fa-computer"></i><span> 报名材料</span></a></li><li><a class="site-page child" href="/jy/zyhz/"><i class="fa-fw fas fa-computer"></i><span> 专业汇总</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://j.bnjy.eu.org/"><i class="fa-fw fas fa-computer"></i><span> 继续教育</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-computer"></i><span> 系统软件</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/system/System/"><i class="fa-fw fas fa-computer"></i><span> 电脑系统</span></a></li><li><a class="site-page child" href="/system/software/"><i class="fa-fw fas fa-computer"></i><span> 电脑软件</span></a></li><li><a class="site-page child" href="/system/zm/"><i class="fa-fw fas fa-computer"></i><span> 系统桌面</span></a></li><li><a class="site-page child" href="/system/yp/"><i class="fa-fw fas fa-computer"></i><span> 音频视频</span></a></li><li><a class="site-page child" href="/system/rss/"><i class="fa-fw fas fa-computer"></i><span> 信息聚合</span></a></li><li><a class="site-page child" href="/system/dh/"><i class="fa-fw fas fa-computer"></i><span> 网址导航</span></a></li><li><a class="site-page child" href="/system/docker/"><i class="fa-fw fas fa-computer"></i><span> docker</span></a></li><li><a class="site-page child" href="/system/asrm/"><i class="fa-fw fas fa-computer"></i><span> 经典收藏</span></a></li></ul></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener" href="https://l.bnjy.eu.org/"><i class="fa-fw fas fa-computer"></i><span> 旅游专线</span></a></div><div class="menus_item"><a class="site-page" href="/web/messageboard/"><i class="fa-fw fas fa-message"></i><span> 网站留言</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="not-home-page" id="page-header" style="background-image: url('https://n.sinaimg.cn/sinacn17/533/w1280h853/20180909/c2f1-hivtsyk6126715.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="半亩方塘"><span class="site-name">半亩方塘</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-book"></i><span> 人生计事</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="//"><i class="fa-fw fas fa-archive"></i><span> 人生计事</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-computer"></i><span> 继续教育</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/jy/tz/"><i class="fa-fw fas fa-computer"></i><span> 继续教育通知</span></a></li><li><a class="site-page child" href="/jy/gjkfdx/"><i class="fa-fw fas fa-computer"></i><span> 国家开放大学</span></a></li><li><a class="site-page child" href="/jy/ynkf/"><i class="fa-fw fas fa-computer"></i><span> 云南开放大学</span></a></li><li><a class="site-page child" href="/jy/lfjt/"><i class="fa-fw fas fa-computer"></i><span> 廊坊交通运输学校</span></a></li><li><a class="site-page child" href="/jy/zygbdsdx/"><i class="fa-fw fas fa-computer"></i><span> 中央广播电视大学</span></a></li><li><a class="site-page child" href="/jy/bm/"><i class="fa-fw fas fa-computer"></i><span> 报名材料</span></a></li><li><a class="site-page child" href="/jy/zyhz/"><i class="fa-fw fas fa-computer"></i><span> 专业汇总</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://j.bnjy.eu.org/"><i class="fa-fw fas fa-computer"></i><span> 继续教育</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-computer"></i><span> 系统软件</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/system/System/"><i class="fa-fw fas fa-computer"></i><span> 电脑系统</span></a></li><li><a class="site-page child" href="/system/software/"><i class="fa-fw fas fa-computer"></i><span> 电脑软件</span></a></li><li><a class="site-page child" href="/system/zm/"><i class="fa-fw fas fa-computer"></i><span> 系统桌面</span></a></li><li><a class="site-page child" href="/system/yp/"><i class="fa-fw fas fa-computer"></i><span> 音频视频</span></a></li><li><a class="site-page child" href="/system/rss/"><i class="fa-fw fas fa-computer"></i><span> 信息聚合</span></a></li><li><a class="site-page child" href="/system/dh/"><i class="fa-fw fas fa-computer"></i><span> 网址导航</span></a></li><li><a class="site-page child" href="/system/docker/"><i class="fa-fw fas fa-computer"></i><span> docker</span></a></li><li><a class="site-page child" href="/system/asrm/"><i class="fa-fw fas fa-computer"></i><span> 经典收藏</span></a></li></ul></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener" href="https://l.bnjy.eu.org/"><i class="fa-fw fas fa-computer"></i><span> 旅游专线</span></a></div><div class="menus_item"><a class="site-page" href="/web/messageboard/"><i class="fa-fw fas fa-message"></i><span> 网站留言</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="page-site-info"><h1 id="site-title">半亩方塘</h1></div></header><main class="layout" id="content-inner"><div id="page"><div id="article-container"><!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI & BMR计算器</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#3B82F6',
+                        secondary: '#10B981',
+                        accent: '#8B5CF6',
+                        dark: '#1E293B',
+                        light: '#F8FAFC'
+                    },
+                    fontFamily: {
+                        inter: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .content-auto {
+                content-visibility: auto;
+            }
+            .card-shadow {
+                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.02);
+            }
+            .input-focus {
+                @apply focus:ring-2 focus:ring-primary/50 focus:border-primary;
+            }
+            .animate-float {
+                animation: float 3s ease-in-out infinite;
+            }
+            .animate-pulse-slow {
+                animation: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+            }
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-blue-50 to-indigo-50 min-h-screen font-inter text-dark flex justify-center items-center p-4">
+    <!-- 整体容器，用于缩放 -->
+    <div class="scale-70 transform origin-top">
+        <div class="container mx-auto px-4 py-8 max-w-6xl">
+            <!-- 页面标题 -->
+            <header class="text-center mb-12">
+                <h1 class="text-[clamp(2rem,5vw,3.5rem)] font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent mb-4">
+                    BMI & BMR 计算器
+                </h1>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                    了解你的身体质量指数(BMI)和基础代谢率(BMR)，为健康生活提供科学依据
+                </p>
+            </header>
+
+            <main class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <!-- 计算器卡片 -->
+                <div class="bg-white rounded-2xl p-8 card-shadow transition-all duration-300 hover:shadow-xl">
+                    <h2 class="text-2xl font-bold mb-6 flex items-center">
+                        <i class="fa-solid fa-calculator text-primary mr-3"></i>
+                        健康计算器
+                    </h2>
+
+                    <form id="health-form" class="space-y-6">
+                        <!-- 性别选择 -->
+                        <div class="grid grid-cols-2 gap-4">
+                            <label class="gender-option relative cursor-pointer p-4 border-2 rounded-xl transition-all duration-300 border-gray-200 hover:border-primary/50">
+                                <input type="radio" name="gender" value="male" class="sr-only peer" checked>
+                                <div class="flex items-center relative z-10">
+                                    <i class="fa-solid fa-mars text-xl mr-3 text-primary"></i>
+                                    <span>男性</span>
+                                </div>
+                                <div class="absolute inset-0 bg-primary/5 opacity-0 peer-checked:opacity-100 rounded-xl transition-opacity duration-300"></div>
+                                <div class="absolute right-3 top-3 opacity-0 peer-checked:opacity-100 transition-opacity duration-300">
+                                    <i class="fa-solid fa-check-circle text-primary"></i>
+                                </div>
+                            </label>
+                            
+                            <label class="gender-option relative cursor-pointer p-4 border-2 rounded-xl transition-all duration-300 border-gray-200 hover:border-primary/50">
+                                <input type="radio" name="gender" value="female" class="sr-only peer">
+                                <div class="flex items-center relative z-10">
+                                    <i class="fa-solid fa-venus text-xl mr-3 text-accent"></i>
+                                    <span>女性</span>
+                                </div>
+                                <div class="absolute inset-0 bg-accent/5 opacity-0 peer-checked:opacity-100 rounded-xl transition-opacity duration-300"></div>
+                                <div class="absolute right-3 top-3 opacity-0 peer-checked:opacity-100 transition-opacity duration-300">
+                                    <i class="fa-solid fa-check-circle text-accent"></i>
+                                </div>
+                            </label>
+                        </div>
+
+                        <!-- 身高输入 -->
+                        <div class="space-y-2">
+                            <label for="height" class="block text-sm font-medium text-gray-700">身高 (厘米)</label>
+                            <div class="relative">
+                                <span class="absolute inset-y-0 left-0 flex items-center pl-3 text-gray-500">
+                                    <i class="fa-solid fa-ruler-vertical"></i>
+                                </span>
+                                <input type="number" id="height" name="height" min="50" max="250" 
+                                    class="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg shadow-sm input-focus transition-all duration-300"
+                                    placeholder="请输入你的身高" value="170" required>
+                            </div>
+                        </div>
+
+                        <!-- 体重输入 -->
+                        <div class="space-y-2">
+                            <label for="weight" class="block text-sm font-medium text-gray-700">体重 (公斤)</label>
+                            <div class="relative">
+                                <span class="absolute inset-y-0 left-0 flex items-center pl-3 text-gray-500">
+                                    <i class="fa-solid fa-balance-scale"></i>
+                                </span>
+                                <input type="number" id="weight" name="weight" min="20" max="300" 
+                                    class="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg shadow-sm input-focus transition-all duration-300"
+                                    placeholder="请输入你的体重" value="70" required>
+                            </div>
+                        </div>
+
+                        <!-- 年龄输入 -->
+                        <div class="space-y-2">
+                            <label for="age" class="block text-sm font-medium text-gray-700">年龄</label>
+                            <div class="relative">
+                                <span class="absolute inset-y-0 left-0 flex items-center pl-3 text-gray-500">
+                                    <i class="fa-solid fa-calendar"></i>
+                                </span>
+                                <input type="number" id="age" name="age" min="10" max="120" 
+                                    class="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg shadow-sm input-focus transition-all duration-300"
+                                    placeholder="请输入你的年龄" value="30" required>
+                            </div>
+                        </div>
+
+                        <!-- 活动水平选择 -->
+                        <div class="space-y-2">
+                            <label for="activity" class="block text-sm font-medium text-gray-700">活动水平</label>
+                            <div class="relative">
+                                <span class="absolute inset-y-0 left-0 flex items-center pl-3 text-gray-500">
+                                    <i class="fa-solid fa-bicycle"></i>
+                                </span>
+                                <select id="activity" name="activity" 
+                                    class="w-full pl-10 pr-10 py-3 border border-gray-300 rounded-lg shadow-sm input-focus transition-all duration-300 appearance-none bg-white">
+                                    <option value="1.2">久坐不动（很少运动）</option>
+                                    <option value="1.375">轻度运动（每周1-3天）</option>
+                                    <option value="1.55">中度运动（每周3-5天）</option>
+                                    <option value="1.725">重度运动（每周6-7天）</option>
+                                    <option value="1.9">非常重度运动（每天高强度训练）</option>
+                                </select>
+                                <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-3 text-gray-500">
+                                    <i class="fa-solid fa-chevron-down text-xs"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 计算按钮 -->
+                        <button type="submit" id="calculate-btn" 
+                            class="w-full py-4 bg-gradient-to-r from-primary to-accent text-white rounded-xl font-medium text-lg shadow-lg shadow-primary/20 hover:shadow-xl hover:shadow-primary/30 transform hover:-translate-y-1 transition-all duration-300 flex items-center justify-center">
+                            <i class="fa-solid fa-calculator mr-2"></i>
+                            计算健康指标
+                        </button>
+                    </form>
+                </div>
+
+                <!-- 结果展示卡片 -->
+                <div class="bg-white rounded-2xl p-8 card-shadow transition-all duration-300 hover:shadow-xl">
+                    <h2 class="text-2xl font-bold mb-6 flex items-center">
+                        <i class="fa-solid fa-chart-line text-secondary mr-3"></i>
+                        健康指标结果
+                    </h2>
+
+                    <div id="result-container" class="space-y-8 opacity-0 transition-opacity duration-500">
+                        <!-- BMI结果 -->
+                        <div class="bmi-result bg-blue-50 rounded-xl p-6 border border-blue-100">
+                            <h3 class="text-xl font-semibold mb-4 flex items-center">
+                                <i class="fa-solid fa-balance-scale text-primary mr-2"></i>
+                                身体质量指数 (BMI)
+                            </h3>
+                            <div class="flex flex-col md:flex-row md:items-center gap-4">
+                                <div class="bmi-value text-4xl font-bold text-primary mb-2 md:mb-0">
+                                    <span id="bmi-value">24.2</span>
+                                    <span class="text-lg font-normal ml-2">kg/m²</span>
+                                </div>
+                                <div class="bmi-category flex-1">
+                                    <span class="text-sm text-gray-600">健康状况:</span>
+                                    <span id="bmi-category" class="block text-xl font-medium text-orange-500">超重</span>
+                                </div>
+                            </div>
+                            <div class="bmi-range mt-4">
+                                <div class="h-3 bg-gray-200 rounded-full overflow-hidden">
+                                    <div id="bmi-indicator" class="h-full bg-gradient-to-r from-blue-500 via-green-500 via-yellow-500 to-red-500" style="width: 60%"></div>
+                                    <div class="h-full bg-gray-400/30" style="width: 40%; margin-left: 60%"></div>
+                                </div>
+                                <div class="flex justify-between mt-1 text-xs text-gray-500">
+                                    <span>偏瘦</span>
+                                    <span>正常</span>
+                                    <span>超重</span>
+                                    <span>肥胖</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- BMR结果 -->
+                        <div class="bmr-result bg-green-50 rounded-xl p-6 border border-green-100">
+                            <h3 class="text-xl font-semibold mb-4 flex items-center">
+                                <i class="fa-solid fa-fire text-secondary mr-2"></i>
+                                基础代谢率 (BMR)
+                            </h3>
+                            <div class="flex flex-col md:flex-row md:items-center gap-4">
+                                <div class="bmr-value text-4xl font-bold text-secondary mb-2 md:mb-0">
+                                    <span id="bmr-value">1,680</span>
+                                    <span class="text-lg font-normal ml-2">千卡/天</span>
+                                </div>
+                                <div class="bmr-explanation flex-1">
+                                    <p class="text-sm text-gray-600">
+                                        你每天静止状态下消耗的热量
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 每日卡路里需求 -->
+                        <div class="tdee-result bg-purple-50 rounded-xl p-6 border border-purple-100">
+                            <h3 class="text-xl font-semibold mb-4 flex items-center">
+                                <i class="fa-solid fa-utensils text-accent mr-2"></i>
+                                每日卡路里需求
+                            </h3>
+                            <div class="tdee-value text-4xl font-bold text-accent mb-3">
+                                <span id="tdee-value">2,304</span>
+                                <span class="text-lg font-normal ml-2">千卡/天</span>
+                            </div>
+                            <p class="text-sm text-gray-600">
+                                根据你的活动水平，这是你每天需要摄入的卡路里量来维持当前体重
+                            </p>
+                        </div>
+
+                        <!-- 建议 -->
+                        <div class="recommendation bg-yellow-50 rounded-xl p-6 border border-yellow-100">
+                            <h3 class="text-xl font-semibold mb-3 flex items-center">
+                                <i class="fa-solid fa-lightbulb text-yellow-500 mr-2"></i>
+                                健康建议
+                            </h3>
+                            <p id="recommendation-text" class="text-gray-700 leading-relaxed">
+                                根据你的BMI结果，你目前处于超重状态。建议增加有氧运动，如快走、游泳或骑自行车，并减少高热量食物的摄入。保持均衡饮食和规律运动，有助于你达到健康体重范围。
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- 初始状态 -->
+                    <div id="initial-message" class="text-center py-12">
+                        <div class="w-24 h-24 mx-auto mb-6 bg-gradient-to-br from-primary/20 to-accent/20 rounded-full flex items-center justify-center animate-float">
+                            <i class="fa-solid fa-heartbeat text-4xl text-primary/70"></i>
+                        </div>
+                        <h3 class="text-xl font-medium text-gray-700 mb-2">填写左侧表单计算健康指标</h3>
+                        <p class="text-gray-500 max-w-md mx-auto">
+                            BMI和BMR是评估身体健康状况的重要指标，帮助你了解身体状况并制定合理的健康计划
+                        </p>
+                    </div>
+
+                    <!-- 加载状态 -->
+                    <div id="loading-indicator" class="text-center py-12 hidden">
+                        <div class="w-16 h-16 mx-auto mb-6 border-4 border-primary/30 border-t-primary rounded-full animate-spin"></div>
+                        <h3 class="text-xl font-medium text-gray-700">正在计算...</h3>
+                    </div>
+                </div>
+            </main>
+
+            <!-- BMI参考信息 -->
+            <section class="mt-12 bg-white rounded-2xl p-8 card-shadow">
+                <h2 class="text-2xl font-bold mb-6 flex items-center">
+                    <i class="fa-solid fa-info-circle text-primary mr-3"></i>
+                    BMI参考范围
+                </h2>
+                <div class="overflow-x-auto">
+                    <table class="min-w-full divide-y divide-gray-200">
+                        <thead class="bg-gray-50">
+                            <tr>
+                                <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">BMI范围</th>
+                                <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">健康状况</th>
+                                <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">说明</th>
+                            </tr>
+                        </thead>
+                        <tbody class="bg-white divide-y divide-gray-200">
+                            <tr class="hover:bg-gray-50 transition-colors duration-200">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-blue-600">低于18.5</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-blue-600">偏瘦</td>
+                                <td class="px-6 py-4 text-sm text-gray-700">体重低于正常范围，可能需要增加营养摄入</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50 transition-colors duration-200">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-green-600">18.5 - 23.9</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-green-600">正常</td>
+                                <td class="px-6 py-4 text-sm text-gray-700">体重适中，保持当前饮食和运动习惯</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50 transition-colors duration-200">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-orange-600">24 - 27.9</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-orange-600">超重</td>
+                                <td class="px-6 py-4 text-sm text-gray-700">体重稍高，建议增加运动和控制饮食</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50 transition-colors duration-200">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-red-600">28及以上</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-red-600">肥胖</td>
+                                <td class="px-6 py-4 text-sm text-gray-700">体重超标，建议咨询医生制定健康计划</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- 页脚 -->
+            <footer class="mt-12 text-center text-gray-500 text-sm">
+                <p>© 剑锋的 BMI & BMR 计算器 | 本工具仅供参考，不能替代专业医疗建议</p>
+            </footer>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.getElementById('health-form');
+            const resultContainer = document.getElementById('result-container');
+            const initialMessage = document.getElementById('initial-message');
+            const loadingIndicator = document.getElementById('loading-indicator');
+            const calculateBtn = document.getElementById('calculate-btn');
+            
+            // 初始隐藏结果区域
+            resultContainer.classList.add('opacity-0');
+            
+            // 确保表单提交按钮可以点击
+            calculateBtn.addEventListener('click', function(e) {
+                // 阻止事件冒泡到父元素
+                e.stopPropagation();
+            });
+            
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                // 显示加载状态
+                initialMessage.classList.add('hidden');
+                resultContainer.classList.add('hidden');
+                loadingIndicator.classList.remove('hidden');
+                
+                // 模拟计算延迟，增强用户体验
+                setTimeout(() => {
+                    calculateResults();
+                    
+                    // 隐藏加载状态，显示结果
+                    loadingIndicator.classList.add('hidden');
+                    resultContainer.classList.remove('hidden');
+                    
+                    // 添加淡入动画
+                    setTimeout(() => {
+                        resultContainer.classList.remove('opacity-0');
+                    }, 10);
+                }, 800);
+            });
+            
+            function calculateResults() {
+                // 获取表单值
+                const gender = document.querySelector('input[name="gender"]:checked').value;
+                const height = parseFloat(document.getElementById('height').value);
+                const weight = parseFloat(document.getElementById('weight').value);
+                const age = parseFloat(document.getElementById('age').value);
+                const activity = parseFloat(document.getElementById('activity').value);
+                
+                // 计算BMI
+                const bmi = weight / ((height / 100) * (height / 100));
+                const bmiRounded = Math.round(bmi * 10) / 10;
+                
+                // 确定BMI类别和颜色
+                let bmiCategory, bmiColor, bmiPosition;
+                if (bmi < 18.5) {
+                    bmiCategory = "偏瘦";
+                    bmiColor = "text-blue-500";
+                    bmiPosition = 20; // 在进度条上的位置
+                } else if (bmi < 24) {
+                    bmiCategory = "正常";
+                    bmiColor = "text-green-500";
+                    bmiPosition = 45;
+                } else if (bmi < 28) {
+                    bmiCategory = "超重";
+                    bmiColor = "text-orange-500";
+                    bmiPosition = 60;
+                } else {
+                    bmiCategory = "肥胖";
+                    bmiColor = "text-red-500";
+                    bmiPosition = 80;
+                }
+                
+                // 计算BMR (Harris-Benedict方程)
+                let bmr;
+                if (gender === 'male') {
+                    bmr = 88.362 + (13.397 * weight) + (4.799 * height) - (5.677 * age);
+                } else {
+                    bmr = 447.593 + (9.247 * weight) + (3.098 * height) - (4.330 * age);
+                }
+                const bmrRounded = Math.round(bmr);
+                
+                // 计算TDEE (总每日能量消耗)
+                const tdee = Math.round(bmr * activity);
+                
+                // 生成建议
+                let recommendation;
+                if (bmi < 18.5) {
+                    recommendation = "根据你的BMI结果，你目前体重偏轻。建议增加高热量、高蛋白质的食物摄入，如肉类、鱼类、蛋类和坚果，同时结合适当的力量训练来增加肌肉量。";
+                } else if (bmi < 24) {
+                    recommendation = "根据你的BMI结果，你目前体重正常。继续保持均衡的饮食和规律的运动，这对你的健康非常有益。建议每周进行至少150分钟的中等强度有氧运动和两次力量训练。";
+                } else if (bmi < 28) {
+                    recommendation = "根据你的BMI结果，你目前处于超重状态。建议增加有氧运动，如快走、游泳或骑自行车，并减少高热量食物的摄入。保持均衡饮食和规律运动，有助于你达到健康体重范围。";
+                } else {
+                    recommendation = "根据你的BMI结果，你目前处于肥胖状态。建议咨询医生或营养师，制定个性化的饮食和运动计划。逐渐增加身体活动量，并控制饮食中的热量摄入，这对你的健康非常重要。";
+                }
+                
+                // 更新UI
+                document.getElementById('bmi-value').textContent = bmiRounded;
+                document.getElementById('bmi-category').textContent = bmiCategory;
+                document.getElementById('bmi-category').className = `block text-xl font-medium ${bmiColor}`;
+                document.getElementById('bmi-indicator').style.width = `${bmiPosition}%`;
+                
+                document.getElementById('bmr-value').textContent = bmrRounded.toLocaleString();
+                document.getElementById('tdee-value').textContent = tdee.toLocaleString();
+                document.getElementById('recommendation-text').textContent = recommendation;
+                
+                // 添加数值动画效果
+                animateValue(document.getElementById('bmi-value'), 0, bmiRounded, 800);
+                animateValue(document.getElementById('bmr-value'), 0, bmrRounded, 800);
+                animateValue(document.getElementById('tdee-value'), 0, tdee, 800);
+            }
+            
+            // 数值动画函数
+            function animateValue(element, start, end, duration) {
+                let startTimestamp = null;
+                const step = (timestamp) => {
+                    if (!startTimestamp) startTimestamp = timestamp;
+                    const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+                    const value = Math.floor(progress * (end - start) + start);
+                    
+                    if (element.id === 'bmi-value') {
+                        element.textContent = (Math.round(value * 10) / 10).toFixed(1);
+                    } else {
+                        element.textContent = value.toLocaleString();
+                    }
+                    
+                    if (progress < 1) {
+                        window.requestAnimationFrame(step);
+                    }
+                };
+                window.requestAnimationFrame(step);
+            }
+            
+            // 为所有输入添加焦点效果
+            const inputs = document.querySelectorAll('input, select');
+            inputs.forEach(input => {
+                input.addEventListener('focus', () => {
+                    input.parentElement.classList.add('scale-[1.01]');
+                    input.parentElement.classList.add('transition-transform');
+                    input.parentElement.classList.add('duration-300');
+                });
+                
+                input.addEventListener('blur', () => {
+                    input.parentElement.classList.remove('scale-[1.01]');
+                });
+            });
+            
+            // 为按钮添加点击波纹效果
+            calculateBtn.addEventListener('click', function(e) {
+                const x = e.clientX - e.target.getBoundingClientRect().left;
+                const y = e.clientY - e.target.getBoundingClientRect().top;
+                
+                const ripple = document.createElement('span');
+                ripple.style.width = ripple.style.height = Math.max(e.target.offsetWidth, e.target.offsetHeight) + 'px';
+                ripple.style.left = x - (ripple.offsetWidth / 2) + 'px';
+                ripple.style.top = y - (ripple.offsetHeight / 2) + 'px';
+                ripple.classList.add('ripple');
+                
+                this.appendChild(ripple);
+                
+                setTimeout(() => {
+                    ripple.remove();
+                }, 600);
+            });
+            
+            // 添加波纹效果的CSS
+            const style = document.createElement('style');
+            style.textContent = `
+                .ripple {
+                    position: absolute;
+                    border-radius: 50%;
+                    background-color: rgba(255, 255, 255, 0.3);
+                    transform: scale(0);
+                    animation: ripple 0.6s linear;
+                    pointer-events: none;
+                }
+                
+                @keyframes ripple {
+                    to {
+                        transform: scale(4);
+                        opacity: 0;
+                    }
+                }
+            `;
+            document.head.appendChild(style);
+        });
+    </script>
+</body>
+</html>
+</div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div><div id="comment-switch"><span class="first-comment">Valine</span><span class="switch-btn"></span><span class="second-comment">Giscus</span></div></div><div class="comment-wrap"><div><div class="vcomment" id="vcomment"></div></div><div><div id="giscus-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://s1.ax1x.com/2023/04/14/ppzyLAs.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">邢剑锋</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">24</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">5</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">2</div></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/ab519416.html" title="比免费更好">比免费更好</a><time datetime="2024-07-22T14:06:22.000Z" title="发表于 2024-07-22 14:06:22">2024-07-22</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/f589171e.html" title="使用 Railway 和 Supabase 零成本搭建 n8n 自动化平台">使用 Railway 和 Supabase 零成本搭建 n8n 自动化平台</a><time datetime="2024-05-06T11:37:51.000Z" title="发表于 2024-05-06 11:37:51">2024-05-06</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/97e9ea5a.html" title="国内开源镜像站点汇总">国内开源镜像站点汇总</a><time datetime="2024-05-01T20:35:55.000Z" title="发表于 2024-05-01 20:35:55">2024-05-01</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/8.html" title="效率公国：高效开会">效率公国：高效开会</a><time datetime="2023-11-10T13:31:51.000Z" title="发表于 2023-11-10 13:31:51">2023-11-10</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/c9ff3035.html" title="当一位清华本硕博放弃 “北京中产”，去往非洲">当一位清华本硕博放弃 “北京中产”，去往非洲</a><time datetime="2023-11-09T23:37:51.000Z" title="发表于 2023-11-09 23:37:51">2023-11-09</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            
+            </div>
+            <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%95%99%E7%A8%8B%E5%AD%A6%E4%B9%A0/"><span class="card-category-list-name">教程学习</span><span class="card-category-list-count">4</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E7%BB%8F%E5%85%B8%E5%A5%BD%E6%96%87/"><span class="card-category-list-name">经典好文</span><span class="card-category-list-count">20</span></a></li>
+            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/GitHub-action/" style="font-size: 1.15em; color: rgb(67, 184, 71)">GitHub action</a><a href="/tags/GitHub/" style="font-size: 1.15em; color: rgb(65, 128, 95)">GitHub</a><a href="/tags/Github/" style="font-size: 1.15em; color: rgb(143, 30, 92)">Github</a><a href="/tags/%E7%BB%8F%E5%85%B8%E5%A5%BD%E6%96%87/" style="font-size: 1.45em; color: rgb(173, 13, 54)">经典好文</a><a href="/tags/%E9%82%AE%E7%AE%B1%E5%8F%91%E9%80%81%E8%A7%84%E5%88%99/" style="font-size: 1.15em; color: rgb(133, 53, 93)">邮箱发送规则</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/07/"><span class="card-archive-list-date">七月 2024</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/05/"><span class="card-archive-list-date">五月 2024</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/11/"><span class="card-archive-list-date">十一月 2023</span><span class="card-archive-list-count">4</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/09/"><span class="card-archive-list-date">九月 2023</span><span class="card-archive-list-count">14</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/04/"><span class="card-archive-list-date">四月 2023</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/03/"><span class="card-archive-list-date">三月 2023</span><span class="card-archive-list-count">2</span></a></li></ul></div></div></div></main><footer id="footer"><br></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="chat_btn" type="button" title="聊天"><i class="fas fa-sms"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"><script>function loadValine () {
+  function initValine () {
+    const valine = new Valine(Object.assign({
+      el: '#vcomment',
+      appId: '6YJscbvqXJK7VrKYNhElZKr7-MdYXbMMI',
+      appKey: 'zLLLAr1WaeicJQyhF896Mmcu',
+      avatar: 'monsterid',
+      serverURLs: '',
+      emojiMaps: "",
+      path: window.location.pathname,
+      visitor: false
+    }, null))
+  }
+
+  if (typeof Valine === 'function') initValine() 
+  else getScript('https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js').then(initValine)
+}
+
+if ('Valine' === 'Valine' || !false) {
+  if (false) btf.loadComment(document.getElementById('vcomment'),loadValine)
+  else setTimeout(loadValine, 0)
+} else {
+  function loadOtherComment () {
+    loadValine()
+  }
+}</script><script>function getGiscusTheme () {
+  return document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light'
+}
+
+function loadGiscus () {
+  const config = Object.assign({
+    src: 'https://giscus.app/client.js',
+    'data-repo': 'nwskj/giscus',
+    'data-repo-id': 'R_kgDOKiAXwA',
+    'data-category-id': 'DIC_kwDOKiAXwM4CaPaz',
+    'data-mapping': 'pathname',
+    'data-theme': getGiscusTheme(),
+    'data-reactions-enabled': '1',
+    crossorigin: 'anonymous',
+    async: true
+  },null)
+
+  let ele = document.createElement('script')
+  for (let key in config) {
+    ele.setAttribute(key, config[key])
+  }
+  document.getElementById('giscus-wrap').insertAdjacentElement('afterbegin',ele)
+}
+
+function changeGiscusTheme () {
+  function sendMessage(message) {
+    const iframe = document.querySelector('iframe.giscus-frame')
+    if (!iframe) return
+    iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app')
+  }
+
+  sendMessage({
+    setConfig: {
+      theme: getGiscusTheme()
+    }
+  });
+}
+
+if ('Valine' === 'Giscus' || !false) {
+  if (false) btf.loadComment(document.getElementById('giscus-wrap'), loadGiscus)
+  else loadGiscus()
+} else {
+  function loadOtherComment () {
+    loadGiscus()
+  }
+}</script></div><script src="//code.tidio.co/3sgwgnvwwlioumvhyqnzuska9saypugg.js" async="async"></script><script>function onTidioChatApiReady() {
+  window.tidioChatApi.hide();
+  window.tidioChatApi.on("close", function() {
+    window.tidioChatApi.hide();
+  });
+}
+if (window.tidioChatApi) {
+  window.tidioChatApi.on("ready", onTidioChatApiReady);
+} else {
+  document.addEventListener("tidioChat-ready", onTidioChatApiReady);
+}
+
+var chatBtnFn = () => {
+  document.getElementById("chat_btn").addEventListener("click", function(){
+    window.tidioChatApi.show();
+    window.tidioChatApi.open();
+  });
+}
+chatBtnFn()
+</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
