@@ -166,7 +166,7 @@ Run yanglbme/gitee-pages-action@main  with:    gitee-username: yanglbme    gitee
         <category>教程学习</category>
       </categories>
       <tags>
-        <tag>GitHub action</tag>
+        <tag>Github</tag>
       </tags>
   </entry>
   <entry>
@@ -1174,7 +1174,7 @@ Github 搜索官方帮助文档 https://help.github.com/cn/github/searching-for-
         <category>教程学习</category>
       </categories>
       <tags>
-        <tag>GitHub</tag>
+        <tag>Github</tag>
       </tags>
   </entry>
   <entry>
