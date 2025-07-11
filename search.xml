@@ -1170,363 +1170,6 @@ Github 搜索官方帮助文档 https://help.github.com/cn/github/searching-for-
       </tags>
   </entry>
   <entry>
-    <title>国内开源镜像站点汇总</title>
-    <url>/posts/97e9ea5a.html</url>
-    <content><![CDATA[国内开源镜像站点汇总一、站点版（一）、企业站
-网易：https://mirrors.163.com/（2021.2 已用容量估计：13.9T）
-搜狐：http://mirrors.sohu.com/
-阿里云：https://mirrors.aliyun.com（部分镜像同步延迟超过 1 天）
-首都在线科技股份有限公司（英文名 Capital Online Data Service）：http://mirrors.yun-idc.com/
-华为云：https://mirrors.huaweicloud.com/
-腾讯云：https://mirrors.cloud.tencent.com/
-平安云：https://mirrors.pinganyun.com/
-开源社 / Azure 中国：http://mirror.azure.cn/
-OpenTuna/AWS 中国：https://opentuna.cn/（2021.2 已用容量估计：21.94T）
-
-（二）、教育站
-中国科技大学：https://mirrors.ustc.edu.cn/（2021.2 已用容量估计：46.1T）
-清华大学：https://mirrors.tuna.tsinghua.edu.cn/（2021.2 已用容量估计：77.7T）
-北京外国语大学：http://mirrors.bfsu.edu.cn/（2021.2 已用容量估计：81.4T）
-北京交通大学：https://mirror.bjtu.edu.cn/
-北京理工大学：http://mirror.bit.edu.cn/web/
-兰州大学：http://mirror.lzu.edu.cn/
-上海交通大学：http://ftp.sjtu.edu.cn/，ftp://ftp.sjtu.edu.cn/（华东南地区教育网出口）
-大连东软信息学院：http://mirrors.neusoft.edu.cn/（2021.2 已用容量估计：10.6T）
-浙江大学：http://mirrors.zju.edu.cn/
-重庆大学：http://mirrors.cqu.edu.cn/（当前已用容量估计：3.93T）
-南阳理工学院：http://mirror.nyist.edu.cn/
-中科院高能物理研究所：http://mirror.ihep.ac.cn/，http://mir-cern.ihep.ac.cn/
-西北农林科技大学：https://mirrors.nwafu.edu.cn/，https://mirrors.nwsuaf.edu.cn/
-华中科技大学：http://mirror.hust.edu.cn/（华中地区教育网出口，2021.2 已用容量估计：4.06T）
-大连理工大学：http://mirror.dlut.edu.cn/（大连地区教育网出口）
-山东女子学院：http://mirrors.sdwu.edu.cn/
-西安交通大学：https://mirrors.xjtu.edu.cn/（西北地区教育网出口）
-上海交通大学 SJTUG：~http://mirrors.sjtug.org/~（已关闭） https://mirrors.sjtug.sjtu.edu.cn/
-南京邮电大学：http://mirrors.njupt.edu.cn/
-南京大学：http://mirrors.nju.edu.cn/
-同济大学：https://mirrors.tongji.edu.cn/
-华南农业大学：https://mirrors.scau.edu.cn/
-东莞理工学院：https://mirrors.dgut.edu.cn/（2021.2 已用容量估计：5.55T）
-重庆邮电大学：http://mirrors.cqupt.edu.cn/https://mirror.redrock.team/（当前已用容量估计：1.68T）
-云南大学：http://mirrors.ynuosa.org/index/（镜像站列表）,http://pypi.opensource.ynu.edu.cn/（收录 pypi）
-哈尔滨工业大学：https://mirrors.hit.edu.cn/
-南方科技大学：https://mirrors.sustech.edu.cn/
-
-（三）、教育站校内
-西安电子科技大学：https://linux.xidian.edu.cn/mirrors/（镜像仅供校内使用）
-南开大学：http://ftp.nankai.edu.cn/（镜像仅供校内使用）
-天津大学：http://mirror.tju.edu.cn（镜像仅供校内使用，另一域名为 zyrj.org）
-南京师范大学：http://mirrors.njnu.edu.cn/（镜像仅供校内使用）
-电子科技大学：http://ubuntu.uestc.edu.cn/（西南地区教育网出口西南，首页近一年无人维护，内容可访问）
-中央音乐学院：http://fundawang.lcuc.org.cn/（镜像仅供校内使用）
-青岛科技大学：http://mirrors.qust.edu.cn/（镜像仅供校内使用）
-
-（四）、其他
-常州贝特康姆软件技术有限公司 (公云 PubYun)：http://centos.bitcomm.cn/，http://mirrors.pubyun.com/（当前已用容量估计：2.3T）
-豆瓣 pypi：http://pypi.doubanio.com/，https://pypi.doubanio.com/
-v2ex 的 pypi：http://pypi.v2ex.com/（首页有 https 异常 NET::ERR_CERT_COMMON_NAME_INVALID）
-淘宝 NPM：https://npm.taobao.org/
-Ruby China 的 RubyGems：https://gems.ruby-china.com/
-淘宝 TAEMaven 仓库镜像：http://mvnrepo.tae.taobao.com/content/groups/public/
-阿里云 Maven 仓库镜像：http://maven.aliyun.com/nexus/content/groups/public
-阿里云 Jcenter 仓库镜像：http://maven.aliyun.com/nexus/content/repositories/jcenter/
-LinuxEye：http://mirrors.linuxeye.com/
-移动云镜像站：http://mirrors.bclinux.org/
-Cloud-Stack 镜像站：http://mirrors.cloudstack-china.com/
-cn99(常州贝特康姆旗下)：http://mirrors.cn99.com/
-龙芯开源社区：http://mirrors.loongnix.org/（只收录龙芯镜像）
-英荔教育：https://mirrors.e-ducation.cn/
-injdk.cn 的各版本 JDK 镜像：https://www.injdk.cn/
-百度 Go Module 仓库代理：http://goproxy.baidu.com/
-
-（五）、确认关闭的镜像站
-北京航空航天大学：http://mirror.buaa.edu.cn/，http://mirror.buaabt.cn/（2012 年建立，2014 年关闭。镜像站关闭后不久，未来花园 BT 关闭。）
-青岛大学：http://mirror.qdu.edu.cn/，https://mirror.osqdu.org/（2009 年建立，2012 年关闭，OSQDU 主要管理人员无法继续维护）
-炼数成金 Apache 镜像：http://apache.dataguru.cn/（2016 年关闭）
-猫扑 Apache 镜像：http://labs.mop.com/apache-mirror/（2016 年关闭）
-人人网 Apache 镜像：http://labs.renren.com/apache-mirror/（2016 年关闭）
-开源中国社区：http://mirrors.oss.org.cn/，http://mirrors.oschina.net/（2015 年关闭）
-希网网络 cn99：http://ubuntu.cn99.com/（域名 CNAME 跳转到网易镜像, 2016 年 9 月重建）
-ZMX - IT 技术交流论坛：http://mirrors.itzmx.com/（域名跳转到清华镜像）
-中国科学院：http://www.opencas.org/mirrors/（2016 年 5 月关闭）
-电子科技大学 LUG 镜像：http://mirrors.uestc.xyz/（2016 年 4 月关闭）
-北京邮电大学：ftp://ftp.bupt.edu.cn/pub/mirror/（2016 年 9 月关闭，清空 FTP）
-西南大学：http://mirrors.linuxstory.org/，http://mirrors.swu.edu.cn/（2016 年 6 月关闭）
-电子科技大学星辰工作室：http://mirrors.stuhome.net/（2016 年 8 月关闭）
-noc.im：http://mirrors.noc.im/（2016 年 8 月关闭）
-LUPA：http://mirror.lupaworld.com/（2016 年停止同步，无实质内容）
-远景：http://mirror.pcbeta.com/（2016 年 6 月关闭）
-山东理工大学：http://ruby.sdutlinux.org/（2016 年 9 月关闭）
-新浪：http://mirrors.sina.cn/，http://mirrors.sina.com/（只收录 CentOS，2015 年 3 月上线，2016 年 10 月关闭）
-中国地质大学：http://mirrors.cug.edu.cn/（2016 年 11 月关闭）
-北京化工大学：http://ubuntu.buct.edu.cn/（2016 年 11 月关闭）
-中国互联网络信息中心：https://mirrors.cnnic.cn/（只收录 Apache 镜像，2017 年 4 月关闭，现 CNAME 到清华大学镜像）
-腾讯 Bugly：http://android-mirror.bugly.qq.com:8080/（只收录 Apache 镜像，2017 年 4 月关闭）
-海波网络镜像：http://mirrors.hypo.cn/（2017 年 5 月关闭）
-吉林大学：http://mirrors.jlu.edu.cn/（2017 年 10 月关闭）
-厦门大学：http://mirrors.xmu.edu.cn/（无实质内容）
-中山大学：http://mirror.sysu.edu.cn/（无法访问）
-东北大学：http://mirror.neu.edu.cn/（2017 年后接近无人维护状态）
-郑州大学：https://mirrors.zzu.edu.cn/（无法访问）
-电子科技大学凝聚网络安全工作室：http://mirrors.cnssuestc.org/（无法访问）
-南京信息工程大学：http://mirrors.duohuo.org/（无法访问）
-江苏开放大学：http://mirrors.jstvu.edu.cn/（无法访问）
-上海科技大学：https://mirrors-wan.geekpie.org/（无法访问）
-南京信息职业技术学院：https://mirrors.njcit.cn/（无法访问）
-南京邮电大学通达学院：http://mirrors.tdsast.cn/（无法访问）
-燕山大学：http://mirror.pret-page.com/（无法访问）
-上海大学：https://mirrors.shu.edu.cn/（无法访问）
-中国电信天翼云：http://mirrors.ctyun.cn/（无法访问）
-开源镜像文件搜索：http://mirrors.org.cn/（无法访问）
-Linux 运维派：https://mirrors.skyshe.cn/（无法访问）
-北京鹏博士宽带：http://mirrors.btte.net/（无法访问）
-Fayea 工作室：http://apache.fayea.com/（无法访问）
-黔东南开源镜像站：https://mirrors.gzqdn.org/（无法访问）
-联创团队：https://mirrors.hustunique.com/（无法访问）
-
-二、软件版（一）、操作系统类
-Ubuntu
-
-
-网易：http://mirrors.163.com/ubuntu-releases/
-首都在线科技股份有限公司：http://mirrors.yun-idc.com/ubuntu-releases/
-阿里云：http://mirrors.aliyun.com/ubuntu-releases/
-
-
-Centos
-
-
-网易：http://mirrors.163.com/centos/
-搜狐：http://mirrors.sohu.com/centos/
-阿里云：http://mirrors.aliyun.com/centos/
-
-
-Centos-vault (Centos 的旧发行版源)
-
-
-阿里云：http://mirrors.aliyun.com/centos-vault/
-清华大学：https://mirror.tuna.tsinghua.edu.cn/centos-vault/
-南京大学：http://mirrors.nju.edu.cn/centos-vault/
-
-
-树莓派 Raspbian
-
-
-搜狐：http://mirrors.sohu.com/raspbian/
-中国科技大学：http://mirrors.ustc.edu.cn/raspbian/
-浙江大学：http://mirrors.zju.edu.cn/raspbian/
-重庆大学：http://mirrors.cqu.edu.cn/raspbian/
-
-
-FreeBSD
-
-
-ChinaFreeBSD：http://chinafreebsd.cn/article/chinafreebsd-resouce
-中国科技大学：http://mirrors.ustc.edu.cn/help/freebsd.html
-
-（二）、服务器类
-Tomcat、Apache
-
-
-清华大学：https://mirrors.tuna.tsinghua.edu.cn/apache/
-北京理工大学：http://mirror.bit.edu.cn/apache/
-
-
-Nginx
-
-
-搜狐：http://mirrors.sohu.com/nginx/
-
-
-MySQL-ftp
-
-
-网易 163：http://mirrors.163.com/mysql/Downloads/
-搜狐：http://mirrors.sohu.com/mysql/
-USTC：http://mirrors.ustc.edu.cn/mysql-ftp/Downloads/
-
-
-MySQL-repo
-
-
-OpenTuna/AWS 中国：https://opentuna.cn/mysql/yum/
-平安云：https://mirrors.pinganyun.com/mysql/yum/
-
-
-PostgreSQL
-
-
-浙江大学：http://mirrors.zju.edu.cn/postgresql/
-中国科技大学：http://mirrors.ustc.edu.cn/postgresql/
-
-
-MariaDB
-
-
-清华大学：https://mirror.tuna.tsinghua.edu.cn/help/mariadb/
-中国科技大学：http://mirrors.ustc.edu.cn/help/mariadb.html
-
-
-mongodb
-
-
-阿里云：http://mirrors.aliyun.com/mongodb/
-清华大学：https://mirrors.tuna.tsinghua.edu.cn/mongodb/
-
-
-VideoLAN
-
-
-大连东软信息学院：http://mirrors.neusoft.edu.cn/videolan/
-中国科技大学：http://mirrors.ustc.edu.cn/videolan-ftp/
-
-（三）、开发工具类
-AdoptOpenJDK
-
-
-清华大学：https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/
-南京大学：http://mirrors.nju.edu.cn/AdoptOpenJDK/
-
-
-eclipse
-
-
-大连东软信息学院：http://mirrors.neusoft.edu.cn/eclipse/technology/epp/downloads/release/（推荐，维护及时）
-中国科技大学：http://mirrors.ustc.edu.cn/eclipse/technology/epp/downloads/release/
-北京理工大学：http://mirror.bit.edu.cn/eclipse/technology/epp/downloads/release/
-
-
-Oracle JDK
-
-
-华为云：https://repo.huaweicloud.com/java/jdk/
-
-
-安卓源码 AOSP
-
-
-清华大学：https://mirrors.tuna.tsinghua.edu.cn/help/AOSP/
-中国科技大学：https://lug.ustc.edu.cn/wiki/mirrors/help/aosp
-
-
-Docker/k8s 容器镜像 (docker.io、gcr.io、k8s.gcr.io、quay.io、ghcr.io、nvcr.io 等常见公共容器镜像仓库)
-
-
-DaoCloud：https://hub.daocloud.io/
-阿里云：https://dev.aliyun.com/search.html
-中国科技大学：http://mirrors.ustc.edu.cn/help/dockerhub.html?highlight=docker
-azk8s.cn：http://mirror.azure.cn/help/docker-registry-proxy-cache.html(仅 Azure 中国 IP 可用)
-
-
-GitLab-CE
-
-
-清华大学：https://mirror.tuna.tsinghua.edu.cn/help/gitlab-ce/
-南京大学：http://mirrors.nju.edu.cn/gitlab-ce/
-
-
-PyPi
-
-
-豆瓣：https://pypi.doubanio.com/simple
-阿里云：https://mirrors.aliyun.com/pypi/simple/
-清华大学：https://pypi.tuna.tsinghua.edu.cn/simple/,https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple/
-
-
-前端公共库（jquery/vue/angular/bootstrap 等）
-
-
-cdnjs.net：https://cdnjs.net/
-BootCDN：https://www.bootcdn.cn/
-baomitu/360 前端：https://cdn.baomitu.com/
-七牛 / staticfile：http://www.staticfile.org/
-新浪：http://lib.sinaapp.com/
-
-三、官方镜像列表状态地址
-CentOS：http://mirror-status.centos.org/#cn
-Archlinux：https://www.archlinux.org/mirrors/status/
-Gentoo：https://www.gentoo.org/downloads/mirrors/#CN
-Ubuntu CD：https://launchpad.net/ubuntu/+cdmirrors
-Ubuntu 软件源：https://launchpad.net/ubuntu/+archivemirrors
-Debian：https://www.debian.org/mirror/list，https://www.debian.org/mirror/list.en.html，http://mirror.debian.org/status.html
-Kail-image：http://cdimage.kali.org/README.mirrorlist
-Linux Mint：https://linuxmint.com/mirrors.php
-Fedora Linux/Fedora EPEL：https://admin.fedoraproject.org/mirrormanager/mirrors
-openSUSE：http://mirrors.opensuse.org/
-PackMan：http://packman.links2linux.org/mirrors
-FreeBSD：https://www.freebsd.org/doc/handbook/mirrors-ftp.html#mirrors-cn-ftp
-Apache：http://www.apache.org/mirrors/#cn
-Cygwin：https://www.cygwin.com/mirrors.html
-CRAN：https://cran.r-project.org/mirrors.html
-CTAN：http://www.ctan.org/mirrors/，http://www.ctan.org/mirrors/mirmon#cn
-CPAN：http://www.cpan.org/SITES.html
-Ruby：https://www.ruby-lang.org/en/downloads/mirrors/
-树莓派 Raspbian：http://www.raspbian.org/RaspbianMirrors
-深度操作系统 deepin：https://www.deepin.org/mirrors/releases/
-Scientific Linux：https://www.scientificlinux.org/downloads/sl-mirrors/
-Sabayon Linux：https://www.sabayon.org/mirrors/
-MySQL：http://dev.mysql.com/downloads/mirrors/
-KNOPPIX：http://www.knopper.net/knoppix-mirrors/
-QT：http://download.qt.io/static/mirrorlist/
-VideoLAN：http://www.videolan.org/videolan/mirrors.html
-eclipse：http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/luna/SR2/eclipse-java-luna-SR2-win32.zip&amp;format=xml
-repoforge：http://mirror-status.repoforge.org/#cn
-Jenkins：http://mirrors.jenkins-ci.org/status.html#CN
-MariaDB：https://mariadb.com/kb/en/mirror-sites-for-mariadb/
-
-四、几个官方 cn 子域解析
-FreeBSD：ftp://ftp.cn.freebsd.org/&lt;—&gt;ftp://www.freebsdchina.org/FreeBSD China
-Debian：http://ftp.cn.debian.org/&lt;—&gt;https://mirrors.ustc.edu.cn/debian/ 中国科学技术大学
-Debian：http://ftp2.cn.debian.org/&lt;—&gt;https://mirror.tuna.tsinghua.edu.cn/debian/ 清华大学
-
-五、镜像站搭建参考
-清华大学镜像管理器脚本，https://github.com/tuna/tunasync
-搭建开源镜像站 - FPs，http://fangpeishi.github.io/build_opensource_mirror.html
-科大开源软件镜像是怎样炼成的，https://ring0.me/2013/09/how-ustc-mirror-works/
-北京交通大学同步脚本，https://github.com/ideal/mirror
-中国科学院同步脚本，https://github.com/opencas/mirrors
-浙江大学同步脚本，https://github.com/zjulug，https://github.com/ZJU-NewMirrors
-重庆邮电大学同步脚本，https://github.com/CQUPTMirror
-兰州大学同步脚本，https://github.com/LZUOSS/Mirror
-教育网主干节点分布，http://www.cernet.com/aboutus/gyce_jgsz.htm
-教育网 CERNET 八大主干节点及地区节点，http://blog.csdn.net/gsls200808/article/details/75099728
-教育网 41 核心节点，http://www.cernet20.edu.cn/family.shtml
-
-六、镜像站异动情况
-2016-11-13: 新浪镜像站全网无法访问，由 17ce 提供测试结果
-2016-11-13: 北京交通大学镜像首页访问出现 403Forbidden
-2016-11-13: 哈尔滨工业大学镜像目录被清空
-2016-11-13: 中国地质大学镜像站全网无法访问，由 17ce 提供测试结果
-2016-11-13: 北京化工大学镜像站全网无法访问，由 17ce 提供测试结果
-2016-11-13: 云南大学 pypi 镜像地址无法访问
-2016-11-13:Linux 运维派镜像首页访问出现 404
-2016-11-26: 新浪镜像站截至目前已经失联 51 天，移至关闭列表
-2016-11-26: 首都在线移至企业站列表，首都在线是国内的一家主机商，有国内节点和海外节点
-2016-12-10: 哈尔滨工业大学镜像目录截至目前已经超过一个月无法访问，移至关闭列表
-2017-1-5: 北京化工大学镜像截至目前已经超过两个月无法访问，移至关闭列表
-2017-1-5: 中国地质大学镜像截至目前已经超过两个月无法访问，移至关闭列表
-2017-1-5: 新增南京信息职业技术学院镜像，这个镜像在 2016 年 11 上线
-2017-1-5: 新增龙芯开源社区镜像，这个镜像应该是很早（2015 年之前）就建立了只是不对外，目前只更新龙芯镜像
-2017-1-6: 新增上海交通大学 SJTUG 镜像，据 v2ex 上的消息，这个镜像于 2016 年上线用来替代原来的上海交通大学镜像，不过目前这个镜像的发展情况也不乐观
-2017-5-17:cnnic 镜像，腾讯 bugly 镜像于 2017 年 4 月关闭
-2017-5-17: 海波镜像于 2017 年 5 月关闭，新增南京邮电大学通达学院、燕山大学、黔东南开源镜像站 3 个镜像
-2017-5-17: 新增南京邮电大学镜像
-2018-1-19:ubuntu 的 cn 子域 cn.archive.ubuntu.com 不再指向阿里云，改为指向美国 IP(91.189.91.26)（18 号 DNS 切换，全网无法正确解析）
-2018-5-16: 更新上海交通大学 SJTUG 镜像，新地址已经包含了原先的 ftp.sjtu.edu.cn 大多数镜像，且新增了大量现代源
-2020-11-2: 清华大学和中国科技大学 11 月 30 日接到热心用户投诉，移除了 deepin 软件源，原因是设计商业软件重分发授权。参见：https://bbs.deepin.org/post/204649
-2020-11-2: 东北大学镜像通过近两年来的访问监测，2017 年后无更新内容，移动到关闭列表。
-2020-11-17: 哈尔滨工业大学镜像重开
-2021-2-5: 因 Oracle JDK 8u203 开始改变授权模式，无法免费商用，新增替代版免费 JDK：AdoptOpenJDK
-
-]]></content>
-      <categories>
-        <category>教程学习</category>
-      </categories>
-      <tags>
-        <tag>Github</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>让工作更高效的五个小习惯</title>
     <url>/posts/4d6a77cd.html</url>
     <content><![CDATA[你可以让 35 小时的工作等同于 80 小时的工作效率么？作为一名程序猿的资深创业者 Jess Martin 的答案是可以。他过去为了提高效率，曾试过没日没夜的工作，但是现在他找到了更好的方法。也许你不能相信，人们并不是生来就有 get-it-done 的基因。提高效率需要你去尝试，修正错误并反复练习。甚至是允许自己在一段时间内倦怠。
@@ -2480,6 +2123,149 @@ E 部分：**持久富足**
       </categories>
   </entry>
   <entry>
+    <title>关于工作与成长的 121 条具体建议</title>
+    <url>/posts/b8b21a05.html</url>
+    <content><![CDATA[关于面对批评
+01. 没有人对被批评感到高兴。如果有，TA 撒谎。
+02. 面对批评，得体的第一反应是 “不急于**解释，不反唇相讥**”。
+03. 每天，或者最长每周养成习惯，把自己存在的问题和造成的麻烦用最重的形容词想一遍，诚实的对待自己。当被批评时，会觉得一切还在掌握之中。
+04. 很多批评的发生是因为误会。所以，首先建立情感层面的信任，其次澄清事实，然后才是消除误会。这三步能解决大部分因批评带来的关系问题。
+05. 被批评时，思考的重点应该是 “我应该从哪里入手解决问题”，而不是 “对不对”。
+06. 对 “评论” 不理不睬，对 “批评” 高度重视。
+07. 如果对批评有不同意见或者不明之处，直接问当事人的完整意见。别回避。
+关于单身生活
+08. 单身过的不愉快，有伴侣之后也不会愉快。
+09. 单身且愉快，一个重要前提是有较高收入且未来可期。
+10. 单身时最值得花时间去做的是投资一切长本事长能耐的事儿：学习、进修、放纵好奇心，因为在有伴侣以后很难再有大块时间可以自由支配。
+11. 拥有联系非常紧密的至交好友，且能够共同成长，两个条件缺一不可。不够紧密则对彼此生活缺少实际支持，不能同步成长则无法长期维持关系。
+12. 建立自己的生活秩序，但要有弹性。弹性是指随时可以接纳一个因伴侣而带来的新秩序。很多人被动长期单身的原因是因为沉浸在自己的世界里、过度缺乏弹性以至于无法接纳别人。
+13. 积极参加有意思的社交活动，认识陌生人，多交朋友。
+14. 尽快建立一套自己的 “生活资源系统”：从保姆小时工到相熟的专车司机、发型师、健身教练、全科医生、可 24 小时喊出来帮忙的亲友、直到旅行代理人，把自己的生活置入一种由专业人士服务的环境中。
+15. 无论以戏谑或者认真的方式哭诉单身狗的身份，都应该尽量减少。因为最有吸引力的单身是貌似不知道是否真的单身的单身男女。
+16. 即使非常享受单身生活，也要保持 “可勾搭” 的待机状态，因为促进荷尔蒙分泌有益身心健康。
+17. 选择偏保守的理财方式，给自己买足额的大病保险，小心对待自己的钱。
+18. 和婚姻生活质量较高的人交朋友，人在面临重大选择时需要榜样和示范。
+19. 不要上来就用长期关系的标准来要求对方，关系是递进的：可见、可约、可睡、可长期交往，然后才是可固定长期关系。在不同阶段，标准不一样。
+20. 多参加打球、逛街、饭局、旅行，少参加茶会、禅修、面壁，不要给自己机会沉浸在自怨自怜伤春悲秋的情绪里。
+21. 主动点。对一切事。
+关于个人形象管理
+22. 对普通人来说，“好看” 的意思其实等同于 “体面”。做到体面，完全是任何人能力范围内的事情。并非苛求。
+23. 认真看两部《Suits》这样的职场美剧，就知道形象管理的红线在哪里。
+24. 清洁是最低标准。对于在现代化城市工作生活的职场人来说，清洁的定义就是每天洗澡每天换衣服擦皮鞋。
+25. 你看起来像什么地位，你就是什么地位。
+26. 请看起来形象最好的朋友推荐发型师，然后和发型师成为朋友。考察一个好发型师的标准之一是他会给你相对而言最简单的方案而不是最贵的。
+27. 把衣服的数量最小化，然后把单价提高到力所能及范围内的最高。
+28. 尽快找出自己的 “基本形象”：任何人都会有一个最佳穿衣模式，固定下来。范冰冰也得把胳膊大腿挡起来的时候才最好看。只是大多数人因为不够自信而不肯把问题简单化，总是在做无谓的尝试。
+29. 在职场露乳沟、露腋毛、露半拉屁股，都跟美丑无关，只是不体面。
+30. 健身可以帮助你更好的认知自己的身体，再贵的衣服也纠正不了驼背弯腰的仪态。
+31. 总体而言修身（不是紧身）的造型对男女来说都会显得人更精神。
+32. 不存在减不掉的体重，只是有没有纪律的问题。
+33. 一个人从里到外让人有 “看起来好干净” 的感觉，是一种极高的形象水平。这一条对老头儿都适用。
+34. 那些质疑个人形象管理重要性的人从来都不会知道因为糟糕的形象而损失了什么。
+关于重大选择
+面临事业、婚姻等等改变人生轨迹的重大选择时，我的心法，仅供参考。
+35. 尽自身最大努力做到有钱、好看、有本事、受欢迎，手里的牌多一些，做选择的主动性就高一些。
+36. 选择大于能力。有人管这个就叫 “命运”。其实是一种长期被忽略的能力：关键时刻快速做出最优选择的能力。
+37. 最优选择就是对个人远期价值最大化的选择。过于关注当下利益往往是人生的大坑。那些抱着要给未来的孩子找个好爸爸的女生在婚姻生活中往往过得比寻找最佳男朋友的女生要好，就是这个原理。
+38. 成大事者不纠结。一旦决定，全力以赴。
+39. 掌握 “概率权”。两张牌，一张掀起来保证给你一百万美金，另一张有百分之五十的概率有 1 个亿美金，或者为零。想清楚，选哪张？怎么选？
+40. 可以征求别人的意见。但是这个 “别人” 是特指那些你由衷佩服和学习的对象。
+41. 无论别人给你什么意见，都要记住决定是你自己的。不要依赖别人，更不要把后果归罪于外。
+42. 远离安全的舒适区。
+43. 远离颠倒梦想，乐于动手做具体事，少想，多干。
+44. 做选择时不要只看自己，要看如果做了一个决定之后，你会和什么样的人混在一起。事业选择这一点尤为重要。
+关于人际关系
+45. 良性的人际关系只有一种，叫做独立自主、强强联合。从来就没有抱团取暖这回事。
+46. 做到对别人有价值，是建立良性人际关系的前提，哪怕是暂时只创造了微小的价值，也有价值。
+47. 所有关系中最多正向循环最少事后负担的，是交易关系。市场最残酷但也最善意。
+48. 所有关系中最危险最有破坏力的，是纯感情关系。所以，一段关系要想良性发展，要有能力从纯感情喂养，发展成 “复合材料”：比如就婚姻而言，激情不长久，但是双方可以成为共同成长的伙伴，或者某个具体目标的合作者。甚至就亲子关系而言，也可以发展出协同学习的伙伴关系。
+49. 不成为别人的负担。这包括了不成为别人的心理和时间负担，接受别人对自己的不接受。
+50. 对自己负责。这包括了对自己的选择和决定负责，承受由之而来的任何结果。
+51. 定期梳理和剖析自己的原生家庭和亲密关系。适度学习一点帮助自我认知的方法，清楚认识并且正面接受自己在人际关系中的短板和问题。大量的人际关系能力缺陷是在原生家庭中已经形成，无需自卑或者自责，因为正面接受自己是战胜这一问题的开始。而且大部分人的大部分心理障碍是可以被消除的。
+52. 第一反应是选择信任别人，但是同时保持独立思考的能力。
+53. 人际关系不仅有交互频率这一个维度，还有交互深度。熟人未必是知己。
+54. 远离巨婴、远离不具有建设性能力的人。
+55. 人际关系是一个人真实自我的外在镜像。
+关于命中贵人
+56. 贵人是那些在关键时刻给出关键点拨的人。他们有能力呈现世界的本来面目。路原来就在那里，但是没有他们的指路你就看不见。
+57. 他们之所以愿意帮你是因为他们的修行，而不是因为我的能耐和好处。
+58. 对他们最好的回报是努力成为和他们一样的人。
+59. 贵人不是等到的，是寻到的和求到的。前提是对他们而言至少你不是减分项。
+60. 以求道之心与人交往。
+61. 举手之劳、锦上添花，才是良性关系。不要求人雪中送炭。跟世态炎凉没关系，有则感谢珍惜，无则检讨自己。
+62. 务必定期让人看到帮你的结果，分享喜悦和成果。
+63. 逢年过节快递两盒点心，送一辈子，也不算有礼。若想要感谢对方，花心思观察，送出终身难忘的礼物。
+64. 不要黏着对方，不要成为别人的负担。要让对方感觉掌握关系的主动权。人家帮过你，但最怕被要求帮你一辈子。
+65. 有机会帮别人的时候，姿态放低再放低，尽量不让对方有心理压力。帮完之后，对方不提，自己不提。
+66. 也许终有一天你会超越那些你生命中曾经那么重要的人，往前看，别害怕。既往不恋。
+关于压力管理
+67. 压力是公平的。真正在入世过活的人，没有人能够置身事外。坚信这一点，不易起怨懑之心。
+68. 职场压力和生活压力无法互换消解。因此不要把压力释放错了地方。
+69. 做一个乐观的悲观主义者。因上努力，果上随缘。
+70. 充分想象最坏的结果，如果认为是无法承受的后果，一定源于自身的贪婪，果断踩刹车。君子不立危墙之下。
+71. 压力无法被替代，注意力可以被转移。到难以承受之际，刷一小时消消乐，剧烈运动两小时，都可以回血。问题依然还在。但不妨缓口气再来。
+72. 有无话不说且旗鼓相当的朋友。说出来可能是最有效的减压之道，并非有人可以安慰你，而是因为站在别人的视角重新看一遍问题会简单很多。
+73. 做不到 72，就试着把压力和问题写下来，只给自己看。然后会发现其实没有那么复杂。
+74. 永远用最直接的方式面对压力源。拖延和迂回只会让压力变大。
+75. 如果压力影响睡眠超过一星期，立即服用褪黑素。否则一个月后大概率就是抑郁症。
+76. 永远不做任何不能让别人知道的决定和交易，无论好处有多大。
+77. 不要用血拼、喝酒、嗑药、饕餮、滥交来缓解压力，否则一觉醒来你会面对压力 2.0。
+78. 把压力想象成一个具体的形象，比如一只怪兽，每处理一步，就在脑海里给丫一拳。
+关于工作习惯
+79. 自己最受益的工作习惯是做笔记。最佩服的是会面后最先共享笔记的人。
+80. 当日事当日毕能提升工作中的幸福感。
+81. 有关人的问题，都不可拖延，不要心存侥幸，认为可以避免直面冲突或对方可以心领神会。越晚着手，问题会恶化的越严重。难听话必须当面说、尽早说、直接说。
+82. 个人行动养成彩排的习惯。打腹稿、做预案。认真准备，就能发现达到一个目标的 N 种途径，行动中灵活不纠结。
+83. 团队作业养成复盘的习惯。不追究具体人责任，着眼于我们学到了什么。
+84. 如果工作性质与人打交道比较多，尽量把会议、会面集中安排在一周中的某几天，这样总时间会缩短。可以留下自己书面作业和从事内部事务的时间。
+85. 如果是管理者，每天固定拨出一些时间与团队成员做非事务性交谈。少则扯淡十几分钟亦可。养成尊重和关注人的习惯。
+86. 每天琢磨核心数据。问出好问题。
+87. 与人面对面交流时不刷手机。
+88. 开会时敢于并善于终结无实质意义的对话，直切主题。致力于达成行动共识。
+89. 准确记录与别人的约会，不迟到。
+90. 做粗略的工作计划比做详细的计划更接近实际情况，更容易被执行。
+91. 出席别人的活动，认真做事前准备，不可一套说辞走世界。准备全套的个人公开资料及时提供给主办方。尽早提交讲稿。
+92. 每天早中晚三次集中时间段处理社交媒体、邮件等方面的信息。不要随刷随到。这是最节省时间的办法。
+93. 如果是管理者，学会问和听一个好问题：你有什么想法？
+94. 购置最好的工作装备。
+95. 睁大双眼找个好搭档。和聪明人一起工作。
+关于自我成长
+96. 早晚你会知道，这个世界上没有别人。你所看到的都是你自己的认知模式创造的镜像。
+97. 与此同时你会知道，这个世界上全是别人。所谓反复追寻的 “真我” 实在是小到不能再小的东西。
+98. 同时知道并接受上述两点，自我成长这件事才真正开始。
+99. 最难的在于不断建立更高的标准，为了解决这一问题最有效的方式是不断结识更好的榜样。
+100. 在人际关系中做一个能力型 “势利眼”，向上看、向前看，与比自己优秀的人交往。
+101. 既往不恋。不回头。不怀旧。不惋惜。
+102. 以真实的、认识的人为榜样，而不是 “传说” 中的。因为真人会在每天的交往中给你真实的压力。
+103. 要寻找和接收那种叫做 “Calling” 的东西。克服 “如何怎样就很好了” 的小地主心态。
+104. 慎独。守心如镜。
+105. 每天独处时问问自己，今天有什么是比前一天做的好的。哪怕是对快递更认真的说谢谢。
+106. 不做负面表达，负面包括讽刺、抱怨、指责、争论、批评、牢骚、大话、评价议论。凡事从建设性出发。
+107. 认真记录并揣摩与别人的交往。
+108. 尽可能扩大自己的阅读面。文科生多读点科学著作，理科生不妨研究点文学艺术。阅读是为了理解人。
+109. 带徒弟是逼迫个人成长的绝招。
+110. 不相信 “适当的年龄” 这件事。除了生孩子，想做任何事情都不会被年龄限制。
+关于机会和陷阱
+111. 世界上最大的陷阱，叫做 “机会型陷阱”。
+112. 评估一下这件事对多少人有利？越是多赢的局面，越可能是个机会，反之如果只有你占尽便宜，那肯定不是机会。
+113. 想想这件事是不是很容易做到？有两种事。一种是机灵事：开头就炸，但是越来越没劲。另一种是苦逼事：开头特难，但是越干门槛越高。前者是陷阱，后者是机会。结硬寨、打呆仗是不变的真理，很容易实现的事情，是机巧，不是机会。
+114. 看忽悠你干这个事的人跟这事的关系。如果对他在精力上只是业余兼职，在财富上只是锦上添花，而你要付出全部精力，搭上全部身家。那么，要警惕是个陷阱。
+115. 周边人赞成与否不重要，但是否出手帮你很重要。一旦开始干，帮你的人越来越多的事，机会。反之，陷阱。  
+116. 因资源而启动的事，容易翻转为陷阱。因顺势而发生的事，容易找到机会。
+117. 推动社会新分工的事，也就是越来越多的人靠这事吃饭养活一家老小的事，机会。在各种裂缝中套利，除了你谁都没好处的事，陷阱。  
+118. 做成之后，容易被巨无霸们摘果子的事，陷阱。做成之后，自成体系的事，机会。换句话说，南瓜不会结在树上。有命长出来，没命 hold 住。
+119. 就算做成了，也有后遗症的事，陷阱。就算做不成，也长本事长江湖地位的事，机会。
+120. 摊在桌上打明牌也能干的事儿，机会。必须遮遮掩掩唯恐别人知道的事儿，陷阱。
+121. 你孩子长大了为你骄傲的事，机会。反之，陷阱。
+]]></content>
+      <categories>
+        <category>经典好文</category>
+      </categories>
+      <tags>
+        <tag>经典好文</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>十年来最大变局正在发生，不幸的是只有 7_ 的人知晓</title>
     <url>/posts/4818dbb2.html</url>
     <content><![CDATA[1 三张图背后的巨变
@@ -2645,204 +2431,360 @@ E 部分：**持久富足**
       </tags>
   </entry>
   <entry>
-    <title>如何不靠运气致富</title>
-    <url>/posts/f276a50.html</url>
-    <content><![CDATA[一般来说，富人不会分享自己发家致富的秘密。所以，有互联网以来，我看到许多在网上教人致富的人都发了财。在英文博客界，写关于如何发财的博文成为了一个专门的门类。而真正的有钱人只会用心灵鸡汤敷衍一下大众，根本不会提供任何方法论，更不要说是致富秘诀了。
-也有例外。硅谷投资人 Naval Ravikant 在 5 月 31 日突然一口气发了 40 条语录，内容就是关于如何不靠运气而致富。随后这 40 条文字被不断转发，翻译为多国语言，这一事件史称 “推文风暴”。Naval 是印度裔移民，20 多年来一直在美国硅谷创业。他最著名的创业项目是 AngelList，世界股权众筹平台的鼻祖；他最著名的投资项目有两个，一个是 Twitter，一个是 Uber。
-奇怪的是，国内互联网上的反响并不强烈。按理说这应该是中国人最感兴趣的话题了，而且要比各种心灵鸡汤高好几个段位，为什么会遭到冷遇呢？我分析了一下原因，主要有两点：1、网上的版本翻译得不好，每个中文字都认识，连起来看就不懂了；2、致富这个话题在中文互联网里，已经被鸡汤严重污染了，所以许多人根本理解不了 Naval 在说什么。
-因此，我决定自己翻译并且注释一下 Naval 的 40 条语录：
-How to Get Rich (without getting lucky)
-《如何不靠运气致富》
-作者：Naval Ravikant
-翻译 &amp; 注释：和菜头
+    <title>国内开源镜像站点汇总</title>
+    <url>/posts/97e9ea5a.html</url>
+    <content><![CDATA[国内开源镜像站点汇总一、站点版（一）、企业站
+网易：https://mirrors.163.com/（2021.2 已用容量估计：13.9T）
+搜狐：http://mirrors.sohu.com/
+阿里云：https://mirrors.aliyun.com（部分镜像同步延迟超过 1 天）
+首都在线科技股份有限公司（英文名 Capital Online Data Service）：http://mirrors.yun-idc.com/
+华为云：https://mirrors.huaweicloud.com/
+腾讯云：https://mirrors.cloud.tencent.com/
+平安云：https://mirrors.pinganyun.com/
+开源社 / Azure 中国：http://mirror.azure.cn/
+OpenTuna/AWS 中国：https://opentuna.cn/（2021.2 已用容量估计：21.94T）
+
+（二）、教育站
+中国科技大学：https://mirrors.ustc.edu.cn/（2021.2 已用容量估计：46.1T）
+清华大学：https://mirrors.tuna.tsinghua.edu.cn/（2021.2 已用容量估计：77.7T）
+北京外国语大学：http://mirrors.bfsu.edu.cn/（2021.2 已用容量估计：81.4T）
+北京交通大学：https://mirror.bjtu.edu.cn/
+北京理工大学：http://mirror.bit.edu.cn/web/
+兰州大学：http://mirror.lzu.edu.cn/
+上海交通大学：http://ftp.sjtu.edu.cn/，ftp://ftp.sjtu.edu.cn/（华东南地区教育网出口）
+大连东软信息学院：http://mirrors.neusoft.edu.cn/（2021.2 已用容量估计：10.6T）
+浙江大学：http://mirrors.zju.edu.cn/
+重庆大学：http://mirrors.cqu.edu.cn/（当前已用容量估计：3.93T）
+南阳理工学院：http://mirror.nyist.edu.cn/
+中科院高能物理研究所：http://mirror.ihep.ac.cn/，http://mir-cern.ihep.ac.cn/
+西北农林科技大学：https://mirrors.nwafu.edu.cn/，https://mirrors.nwsuaf.edu.cn/
+华中科技大学：http://mirror.hust.edu.cn/（华中地区教育网出口，2021.2 已用容量估计：4.06T）
+大连理工大学：http://mirror.dlut.edu.cn/（大连地区教育网出口）
+山东女子学院：http://mirrors.sdwu.edu.cn/
+西安交通大学：https://mirrors.xjtu.edu.cn/（西北地区教育网出口）
+上海交通大学 SJTUG：~http://mirrors.sjtug.org/~（已关闭） https://mirrors.sjtug.sjtu.edu.cn/
+南京邮电大学：http://mirrors.njupt.edu.cn/
+南京大学：http://mirrors.nju.edu.cn/
+同济大学：https://mirrors.tongji.edu.cn/
+华南农业大学：https://mirrors.scau.edu.cn/
+东莞理工学院：https://mirrors.dgut.edu.cn/（2021.2 已用容量估计：5.55T）
+重庆邮电大学：http://mirrors.cqupt.edu.cn/https://mirror.redrock.team/（当前已用容量估计：1.68T）
+云南大学：http://mirrors.ynuosa.org/index/（镜像站列表）,http://pypi.opensource.ynu.edu.cn/（收录 pypi）
+哈尔滨工业大学：https://mirrors.hit.edu.cn/
+南方科技大学：https://mirrors.sustech.edu.cn/
+
+（三）、教育站校内
+西安电子科技大学：https://linux.xidian.edu.cn/mirrors/（镜像仅供校内使用）
+南开大学：http://ftp.nankai.edu.cn/（镜像仅供校内使用）
+天津大学：http://mirror.tju.edu.cn（镜像仅供校内使用，另一域名为 zyrj.org）
+南京师范大学：http://mirrors.njnu.edu.cn/（镜像仅供校内使用）
+电子科技大学：http://ubuntu.uestc.edu.cn/（西南地区教育网出口西南，首页近一年无人维护，内容可访问）
+中央音乐学院：http://fundawang.lcuc.org.cn/（镜像仅供校内使用）
+青岛科技大学：http://mirrors.qust.edu.cn/（镜像仅供校内使用）
+
+（四）、其他
+常州贝特康姆软件技术有限公司 (公云 PubYun)：http://centos.bitcomm.cn/，http://mirrors.pubyun.com/（当前已用容量估计：2.3T）
+豆瓣 pypi：http://pypi.doubanio.com/，https://pypi.doubanio.com/
+v2ex 的 pypi：http://pypi.v2ex.com/（首页有 https 异常 NET::ERR_CERT_COMMON_NAME_INVALID）
+淘宝 NPM：https://npm.taobao.org/
+Ruby China 的 RubyGems：https://gems.ruby-china.com/
+淘宝 TAEMaven 仓库镜像：http://mvnrepo.tae.taobao.com/content/groups/public/
+阿里云 Maven 仓库镜像：http://maven.aliyun.com/nexus/content/groups/public
+阿里云 Jcenter 仓库镜像：http://maven.aliyun.com/nexus/content/repositories/jcenter/
+LinuxEye：http://mirrors.linuxeye.com/
+移动云镜像站：http://mirrors.bclinux.org/
+Cloud-Stack 镜像站：http://mirrors.cloudstack-china.com/
+cn99(常州贝特康姆旗下)：http://mirrors.cn99.com/
+龙芯开源社区：http://mirrors.loongnix.org/（只收录龙芯镜像）
+英荔教育：https://mirrors.e-ducation.cn/
+injdk.cn 的各版本 JDK 镜像：https://www.injdk.cn/
+百度 Go Module 仓库代理：http://goproxy.baidu.com/
+
+（五）、确认关闭的镜像站
+北京航空航天大学：http://mirror.buaa.edu.cn/，http://mirror.buaabt.cn/（2012 年建立，2014 年关闭。镜像站关闭后不久，未来花园 BT 关闭。）
+青岛大学：http://mirror.qdu.edu.cn/，https://mirror.osqdu.org/（2009 年建立，2012 年关闭，OSQDU 主要管理人员无法继续维护）
+炼数成金 Apache 镜像：http://apache.dataguru.cn/（2016 年关闭）
+猫扑 Apache 镜像：http://labs.mop.com/apache-mirror/（2016 年关闭）
+人人网 Apache 镜像：http://labs.renren.com/apache-mirror/（2016 年关闭）
+开源中国社区：http://mirrors.oss.org.cn/，http://mirrors.oschina.net/（2015 年关闭）
+希网网络 cn99：http://ubuntu.cn99.com/（域名 CNAME 跳转到网易镜像, 2016 年 9 月重建）
+ZMX - IT 技术交流论坛：http://mirrors.itzmx.com/（域名跳转到清华镜像）
+中国科学院：http://www.opencas.org/mirrors/（2016 年 5 月关闭）
+电子科技大学 LUG 镜像：http://mirrors.uestc.xyz/（2016 年 4 月关闭）
+北京邮电大学：ftp://ftp.bupt.edu.cn/pub/mirror/（2016 年 9 月关闭，清空 FTP）
+西南大学：http://mirrors.linuxstory.org/，http://mirrors.swu.edu.cn/（2016 年 6 月关闭）
+电子科技大学星辰工作室：http://mirrors.stuhome.net/（2016 年 8 月关闭）
+noc.im：http://mirrors.noc.im/（2016 年 8 月关闭）
+LUPA：http://mirror.lupaworld.com/（2016 年停止同步，无实质内容）
+远景：http://mirror.pcbeta.com/（2016 年 6 月关闭）
+山东理工大学：http://ruby.sdutlinux.org/（2016 年 9 月关闭）
+新浪：http://mirrors.sina.cn/，http://mirrors.sina.com/（只收录 CentOS，2015 年 3 月上线，2016 年 10 月关闭）
+中国地质大学：http://mirrors.cug.edu.cn/（2016 年 11 月关闭）
+北京化工大学：http://ubuntu.buct.edu.cn/（2016 年 11 月关闭）
+中国互联网络信息中心：https://mirrors.cnnic.cn/（只收录 Apache 镜像，2017 年 4 月关闭，现 CNAME 到清华大学镜像）
+腾讯 Bugly：http://android-mirror.bugly.qq.com:8080/（只收录 Apache 镜像，2017 年 4 月关闭）
+海波网络镜像：http://mirrors.hypo.cn/（2017 年 5 月关闭）
+吉林大学：http://mirrors.jlu.edu.cn/（2017 年 10 月关闭）
+厦门大学：http://mirrors.xmu.edu.cn/（无实质内容）
+中山大学：http://mirror.sysu.edu.cn/（无法访问）
+东北大学：http://mirror.neu.edu.cn/（2017 年后接近无人维护状态）
+郑州大学：https://mirrors.zzu.edu.cn/（无法访问）
+电子科技大学凝聚网络安全工作室：http://mirrors.cnssuestc.org/（无法访问）
+南京信息工程大学：http://mirrors.duohuo.org/（无法访问）
+江苏开放大学：http://mirrors.jstvu.edu.cn/（无法访问）
+上海科技大学：https://mirrors-wan.geekpie.org/（无法访问）
+南京信息职业技术学院：https://mirrors.njcit.cn/（无法访问）
+南京邮电大学通达学院：http://mirrors.tdsast.cn/（无法访问）
+燕山大学：http://mirror.pret-page.com/（无法访问）
+上海大学：https://mirrors.shu.edu.cn/（无法访问）
+中国电信天翼云：http://mirrors.ctyun.cn/（无法访问）
+开源镜像文件搜索：http://mirrors.org.cn/（无法访问）
+Linux 运维派：https://mirrors.skyshe.cn/（无法访问）
+北京鹏博士宽带：http://mirrors.btte.net/（无法访问）
+Fayea 工作室：http://apache.fayea.com/（无法访问）
+黔东南开源镜像站：https://mirrors.gzqdn.org/（无法访问）
+联创团队：https://mirrors.hustunique.com/（无法访问）
 
-Seek wealth, not money or status. Wealth is having assets that earn while you sleep. Money is how we transfer time and wealth. Status is your place in the social hierarchy.
+二、软件版（一）、操作系统类
+Ubuntu
 
 
-去寻求财富，而非金钱或地位。财富就是你拥有资产，而资产在你睡觉的时候都还在为你赚钱；金钱是我们转换时间和财富的工具；身份是你在社会等级体系里所处的位置。
+网易：http://mirrors.163.com/ubuntu-releases/
+首都在线科技股份有限公司：http://mirrors.yun-idc.com/ubuntu-releases/
+阿里云：http://mirrors.aliyun.com/ubuntu-releases/
 
 
-Understand that ethical wealth creation is possible. If you secretly despise wealth, it will elude you.
+Centos
 
 
-要明白一件事：一个人完全可以不靠坑蒙拐骗站着赚取财富。如果你在暗中鄙视财富，那么财富也会躲着你。
+网易：http://mirrors.163.com/centos/
+搜狐：http://mirrors.sohu.com/centos/
+阿里云：http://mirrors.aliyun.com/centos/
 
 
-Ignore people playing status games. They gain status by attacking people playing wealth creation games.
+Centos-vault (Centos 的旧发行版源)
 
 
-别去理会那些热衷于玩身份游戏的人，他们通过攻击那些创造财富的人以获得自己的身份。
+阿里云：http://mirrors.aliyun.com/centos-vault/
+清华大学：https://mirror.tuna.tsinghua.edu.cn/centos-vault/
+南京大学：http://mirrors.nju.edu.cn/centos-vault/
 
-4.You’re not going to get rich renting out your time. You must own equity — a piece of a business — to gain your financial freedom.
 
-你不会通过出租自己的时间而变得富有。你必须拥有产权，也就是生意的一部分，以此才能赢得个人财务自由。
+树莓派 Raspbian
 
-5.You will get rich by giving society what it wants but do
-es not yet know how to get. At scale.
 
-提供社会大众想要但是他们还不知道如何获取的东西，你就会因此而致富。但有一点：你必须规模化地供应社会。
+搜狐：http://mirrors.sohu.com/raspbian/
+中国科技大学：http://mirrors.ustc.edu.cn/raspbian/
+浙江大学：http://mirrors.zju.edu.cn/raspbian/
+重庆大学：http://mirrors.cqu.edu.cn/raspbian/
 
-6.Pick an industry where you can play long term games with long term people.
 
-选择一个你可以长期从事的产业，寻找一批可以一起长期共事的人。
+FreeBSD
 
-7.The Internet has massively broadened the possible space of careers. Most people haven’t figured this out yet.
 
-互联网极大拓展了一个人职业生涯的可能性。绝大多数人对此毫无认知。
+ChinaFreeBSD：http://chinafreebsd.cn/article/chinafreebsd-resouce
+中国科技大学：http://mirrors.ustc.edu.cn/help/freebsd.html
 
-8.Play iterated games. All the returns in life, whether in wealth, relationships, or knowledge, come from compound interest.
+（二）、服务器类
+Tomcat、Apache
 
-玩就玩复利游戏。无论是财富，人际关系或者是知识，所有你人生里获得的回报，都来自复利。
 
-9.Pick business partners with high intelligence, energy, and, above all, integrity.
+清华大学：https://mirrors.tuna.tsinghua.edu.cn/apache/
+北京理工大学：http://mirror.bit.edu.cn/apache/
 
-在选择商业合作伙伴的时候，选择那些高智商、精力旺盛的家伙，但在这一切之上，他应该是个正直诚实的人。
 
-10.Don’t partner with cynics and pessimists. Their beliefs are self-fulfilling.
+Nginx
 
-不要和愤世嫉俗者和悲观主义者合作，因为他们会任由坏事发生，以此证明他们的负面看法是正确的。
 
-11.Learn to sell. Learn to build. If you can do both, you will be unstoppable.
+搜狐：http://mirrors.sohu.com/nginx/
 
-学会如何销售，学会如何创建。如果你同时能做到这两件事，你的成功将无可阻挡。
 
-12.Arm yourself with specific knowledge, accountability, and leverage.
+MySQL-ftp
 
-用独到知识，责任感和杠杆武装自己。
 
-13.Specific knowledge is knowledge that you cannot be trained for. If society can train you, it can train someone else, and replace you.
+网易 163：http://mirrors.163.com/mysql/Downloads/
+搜狐：http://mirrors.sohu.com/mysql/
+USTC：http://mirrors.ustc.edu.cn/mysql-ftp/Downloads/
 
-独到知识是那种不可以通过培训而获得的知识。这是因为，如果这种知识可以经由培训而得，那么其他人同样也可以，并且以此取代你。
 
-14.Specific knowledge is found by pursuing your genuine curiosity and passion rather than whatever is hot right now.
+MySQL-repo
 
-在真正的好奇心和热情驱使你前进的路上，你更有可能获得独到知识，而不是在追逐潮流热点的闻风起舞脚步里。
 
-15.Building specific knowledge will feel like play to you but will look like work to others.
+OpenTuna/AWS 中国：https://opentuna.cn/mysql/yum/
+平安云：https://mirrors.pinganyun.com/mysql/yum/
 
-创建独到知识的过程对于你就像是在玩，而对于别人则像是工作。
 
-16.When specific knowledge is taught, it’s through apprenticeships, not schools.
+PostgreSQL
 
-不能通过学校教育教会一个人独到知识，它只能通过学徒制口传身教。
 
-17.Specific knowledge is often highly technical or creative. It cannot be outsourced or automated.
+浙江大学：http://mirrors.zju.edu.cn/postgresql/
+中国科技大学：http://mirrors.ustc.edu.cn/postgresql/
 
-独到知识通常极富技术性和创造性，因此它不能被外包或自动实现。
 
-18.Embrace accountability, and take business risks under your own name. Society will reward you with responsibility, equity, and leverage.
+MariaDB
 
-拥抱责任感，押上自己的声誉以承担商业风险。社会也会以责任，产权和杠杆作为回报。
 
-19.The most accountable people have singular, public, and risky brands: Oprah, Trump, Kanye, Elon.
+清华大学：https://mirror.tuna.tsinghua.edu.cn/help/mariadb/
+中国科技大学：http://mirrors.ustc.edu.cn/help/mariadb.html
 
-最具责任感的人都具有独一无二的、世人皆知的、敢于冒险的个性特征，如奥普拉、川普、坎耶、埃隆。
 
-20.“Give me a lever long enough, and a place to stand, and I will move the earth.” — Archimedes
+mongodb
 
-只要给我一根足够长的杠杆，一处可以立足的地方，我就能撬起地球。——阿基米德
 
-21.Fortunes require leverage. Business leverage comes from capital, people, and products with no marginal cost of replication (code and media).
+阿里云：http://mirrors.aliyun.com/mongodb/
+清华大学：https://mirrors.tuna.tsinghua.edu.cn/mongodb/
 
-财富增长需要使用杠杆。商业杠杆有三个来源：1、资本；2、人力；3、复制起来边际成本为零的产品（如：代码和媒体）。
 
-22.Capital means money. To raise money, apply your specific knowledge, with accountability, and show resulting good judgment.
+VideoLAN
 
-资本的意思就是钱。想要融资，那就运用你的独到知识，配合你责任感，展示出你良好的判断力。
 
-23.Labor means people working for you. It’s the oldest and most fought-over form of leverage. Labor leverage will impress your parents, but don’t waste your life chasing it.
+大连东软信息学院：http://mirrors.neusoft.edu.cn/videolan/
+中国科技大学：http://mirrors.ustc.edu.cn/videolan-ftp/
 
-人力指的就是为你干活的人，它是最古老也是争夺最激烈的杠杆。人力杠杆会让你父母因为你手下有许多人为你工作而感到骄傲，但你不要浪费生命去追求这一点。
+（三）、开发工具类
+AdoptOpenJDK
 
-24.Capital and labor are permissioned leverage. Everyone is chasing capital, but someone has to give it to you. Everyone is trying to lead, but someone has to follow you.
 
-资本和劳动力是需要征得许可才能使用的杠杆。每个人都在追逐资本，但总得有个什么人给你才行；每个人都想要领导其它人，但总得有什么人愿意跟着你才行。
+清华大学：https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/
+南京大学：http://mirrors.nju.edu.cn/AdoptOpenJDK/
 
-25.Code and media are permissionless leverage. They’re the leverage behind the newly rich. You can create software and media that works for you while you sleep.
 
-代码和媒体是无需要许可即可使用的杠杆。它们是新贵人群背后的杠杆，你可以通过自己创建的软件和媒体，在睡觉时仍然为你干活。
+eclipse
 
-26.An army of robots is freely available — it’s just packed in data centers for heat and space efficiency. Use it.
 
-一支机器人军团已经集结待命，只是为了节约空间和热效能，它们被打包放进数据中心。去用吧。
+大连东软信息学院：http://mirrors.neusoft.edu.cn/eclipse/technology/epp/downloads/release/（推荐，维护及时）
+中国科技大学：http://mirrors.ustc.edu.cn/eclipse/technology/epp/downloads/release/
+北京理工大学：http://mirror.bit.edu.cn/eclipse/technology/epp/downloads/release/
 
-27.If you can’t code, write books and blogs, record videos and podcasts.
 
-如果你不会编程，那你还可以写书和博客，或者做视频或者音频节目。
+Oracle JDK
 
-28.Leverage is a force multiplier for your judgement.
 
-杠杆能够成倍地放大你的判断力（所产生的效能）。
+华为云：https://repo.huaweicloud.com/java/jdk/
 
-29.Judgement requires experience, but can be built faster by learning foundational skills.
 
-判断力需要经验，但它可以通过学习基本技能的方法更快速地建立起来。
+安卓源码 AOSP
 
-30.There is no skill called “business.” Avoid business magazines and business classes.
 
-并不存在一种叫做 “商业” 的能力。尽量避开商业杂志和商业课程。
+清华大学：https://mirrors.tuna.tsinghua.edu.cn/help/AOSP/
+中国科技大学：https://lug.ustc.edu.cn/wiki/mirrors/help/aosp
 
-31.Study microeconomics, game theory, psychology, persuasion, ethics, mathematics, and computers.
 
-去学习微观经济学、博弈论、心理学、说服术、伦理学、数学和计算机科学。
+Docker/k8s 容器镜像 (docker.io、gcr.io、k8s.gcr.io、quay.io、ghcr.io、nvcr.io 等常见公共容器镜像仓库)
 
-32.Reading is faster than listening. Doing is faster than watching.
 
-读比听快，做比看快。
+DaoCloud：https://hub.daocloud.io/
+阿里云：https://dev.aliyun.com/search.html
+中国科技大学：http://mirrors.ustc.edu.cn/help/dockerhub.html?highlight=docker
+azk8s.cn：http://mirror.azure.cn/help/docker-registry-proxy-cache.html(仅 Azure 中国 IP 可用)
 
-33.You should be too busy to “do coffee,” while still keeping an uncluttered calendar.
 
-你应该忙得没有社交的时间才对，与此同时你应该始终保证日程安排井井有条。  
+GitLab-CE
 
-34.Set and enforce an aspirational personal hourly rate. If fixing a problem will save less than your hourly rate, ignore it. If outsourcing a task will cost less than your hourly rate, outsource it.
 
-你应该为自己设定一个有抱负的个人时薪数，并且坚持执行。如果解决一个问题所能节省下来的成本低于你的个人时薪，那就忽略这个问题好了；如果一项任务的外包成本低于你的个人时薪，就把它外包出去。
+清华大学：https://mirror.tuna.tsinghua.edu.cn/help/gitlab-ce/
+南京大学：http://mirrors.nju.edu.cn/gitlab-ce/
 
-35.Work as hard as you can. Even though who you work with and what you work on are more important than how hard you work.
 
-尽管你跟谁一起工作、做什么工作，要远比你的努力程度更加重要。但还是要倾尽全力去工作。
+PyPi
 
-36.Become the best in the world at what you do. Keep redefining what you do until this is true.
 
-你所做的事情，要努力做到世界最好。不断重新定义你在做什么，直到真的做到世界最好。
+豆瓣：https://pypi.doubanio.com/simple
+阿里云：https://mirrors.aliyun.com/pypi/simple/
+清华大学：https://pypi.tuna.tsinghua.edu.cn/simple/,https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple/
 
-37.There are no get rich quick schemes. That’s just someone else getting rich off you.
 
-这个世界上并没有快速赚钱致富的方法，如果你想要找寻这种方法，那它只会让别人从你身上赚钱致富。
+前端公共库（jquery/vue/angular/bootstrap 等）
 
-38.Apply specific knowledge, with leverage, and eventually you will get what you deserve.
 
-运用你的独到知识，配合上杠杆，最终你会得到你应该得到的东西。
+cdnjs.net：https://cdnjs.net/
+BootCDN：https://www.bootcdn.cn/
+baomitu/360 前端：https://cdn.baomitu.com/
+七牛 / staticfile：http://www.staticfile.org/
+新浪：http://lib.sinaapp.com/
 
-39.When you’re finally wealthy, you’ll realize that it wasn’t what you were seeking in the first place. But that’s for another day.
+三、官方镜像列表状态地址
+CentOS：http://mirror-status.centos.org/#cn
+Archlinux：https://www.archlinux.org/mirrors/status/
+Gentoo：https://www.gentoo.org/downloads/mirrors/#CN
+Ubuntu CD：https://launchpad.net/ubuntu/+cdmirrors
+Ubuntu 软件源：https://launchpad.net/ubuntu/+archivemirrors
+Debian：https://www.debian.org/mirror/list，https://www.debian.org/mirror/list.en.html，http://mirror.debian.org/status.html
+Kail-image：http://cdimage.kali.org/README.mirrorlist
+Linux Mint：https://linuxmint.com/mirrors.php
+Fedora Linux/Fedora EPEL：https://admin.fedoraproject.org/mirrormanager/mirrors
+openSUSE：http://mirrors.opensuse.org/
+PackMan：http://packman.links2linux.org/mirrors
+FreeBSD：https://www.freebsd.org/doc/handbook/mirrors-ftp.html#mirrors-cn-ftp
+Apache：http://www.apache.org/mirrors/#cn
+Cygwin：https://www.cygwin.com/mirrors.html
+CRAN：https://cran.r-project.org/mirrors.html
+CTAN：http://www.ctan.org/mirrors/，http://www.ctan.org/mirrors/mirmon#cn
+CPAN：http://www.cpan.org/SITES.html
+Ruby：https://www.ruby-lang.org/en/downloads/mirrors/
+树莓派 Raspbian：http://www.raspbian.org/RaspbianMirrors
+深度操作系统 deepin：https://www.deepin.org/mirrors/releases/
+Scientific Linux：https://www.scientificlinux.org/downloads/sl-mirrors/
+Sabayon Linux：https://www.sabayon.org/mirrors/
+MySQL：http://dev.mysql.com/downloads/mirrors/
+KNOPPIX：http://www.knopper.net/knoppix-mirrors/
+QT：http://download.qt.io/static/mirrorlist/
+VideoLAN：http://www.videolan.org/videolan/mirrors.html
+eclipse：http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/luna/SR2/eclipse-java-luna-SR2-win32.zip&amp;format=xml
+repoforge：http://mirror-status.repoforge.org/#cn
+Jenkins：http://mirrors.jenkins-ci.org/status.html#CN
+MariaDB：https://mariadb.com/kb/en/mirror-sites-for-mariadb/
 
-终有一天当你变得富有，你会发现那一切并不是你最开始想要的东西。但是那就是另外一回事了。
+四、几个官方 cn 子域解析
+FreeBSD：ftp://ftp.cn.freebsd.org/&lt;—&gt;ftp://www.freebsdchina.org/FreeBSD China
+Debian：http://ftp.cn.debian.org/&lt;—&gt;https://mirrors.ustc.edu.cn/debian/ 中国科学技术大学
+Debian：http://ftp2.cn.debian.org/&lt;—&gt;https://mirror.tuna.tsinghua.edu.cn/debian/ 清华大学
 
-注释：
-1、财富就是你睡着觉，你的资产也在为你继续赚钱。这是一个越来越被广泛接受的定义。Naval Ravikant 是硅谷狂热的数字货币支持者，所以，他的话另有所指。从前后文来看，他所谓的资产并不等于是传统意义上的房产、股票、收藏，而是偏向于他反复提及的：软件和媒体。
-2、出租时间概念，许多人理解为打工，认为打工就是出租自己的时间以换取金钱。其实并非如此，Naval 所指的出租时间概念，指的是一个人的财富增长，是否直接关系到他的时间。一个小卖部的老板，他并不为谁打工，但是他的财富增长需要他长时间守在店里，因此，他依然是出租时间换钱。但一个淘宝点卡店老板则不同，他的点卡销售是全自动的，不需要 24 小时守着，而且也不需要只做这一样生意。这就是 Naval 所谓互联网拓宽了个人职业生涯的一个例子。
-3、equity 我翻译为产权，不是一个很好的翻法。但是 Naval 前文提到 assets，很明显，作为投资人他非常清楚地知道这两个字眼之间的区别。equity 无论是翻译为股票、权益或者是资产，原文说 “ You must own equity — a piece of a business — to gain your financial freedom.”，这是和出租时间概念做对应的。出租时间的人，在商业链条里作为生产资料出现，不拥有任何产权，也就无法通过商业行为获利，所以，我这里勉强翻译为产权。
-4、specific knowledge 我翻译为独到知识，没有翻译为特定知识、专业知识或者是特殊知识。原因是在我的理解中，specific knowledge 不是书本知识，也不是学校教授的知识，更不可能在网上免费获取。一方面，它只能提供自己实践来获取；另一方面，它只能通过前人口耳相传。这种知识是做成一件事情的关键，属于知识体系中不共的那一部分。所以，我翻译为独到知识。
-5、“Give me a lever long enough, and a place to stand, and I will move the earth.” — Archimedes 这话不像是阿基米德说的。更像是一次抬杠的结果：
-“给我一个支点，我就能撬起地球！”  
-“那么，您站在哪儿呢？”
-“好吧，给我一个支点，再给我一个站立的地方，我就能撬起地球。”
-“那么，您用空气就能撬起地球了？”
-“好吧，给我一根足够长的杠杆，一处可以立足的地方，我就可以翘起地球！”
-“那么，阿基米德先生，支点又不需要了吗？”
-“滚！”
-6、accountability 我本想翻译为 “靠谱程度”，想想还是算了。
-7、号称是 “四十条语录”，但是我就找见了 39 条。
-8、结合上下文看，Leverage 一词始终翻译为 “杠杆” 其实也不大对头。Naval 一再强调代码、博客、播客、视频节目，我觉得 Leverage 在他那里，有些时候应该相当于是个人影响力的代名词，或者可以简单理解为放大器。
-请你相信我：
-我所说的每一句话，
-都是错的
+五、镜像站搭建参考
+清华大学镜像管理器脚本，https://github.com/tuna/tunasync
+搭建开源镜像站 - FPs，http://fangpeishi.github.io/build_opensource_mirror.html
+科大开源软件镜像是怎样炼成的，https://ring0.me/2013/09/how-ustc-mirror-works/
+北京交通大学同步脚本，https://github.com/ideal/mirror
+中国科学院同步脚本，https://github.com/opencas/mirrors
+浙江大学同步脚本，https://github.com/zjulug，https://github.com/ZJU-NewMirrors
+重庆邮电大学同步脚本，https://github.com/CQUPTMirror
+兰州大学同步脚本，https://github.com/LZUOSS/Mirror
+教育网主干节点分布，http://www.cernet.com/aboutus/gyce_jgsz.htm
+教育网 CERNET 八大主干节点及地区节点，http://blog.csdn.net/gsls200808/article/details/75099728
+教育网 41 核心节点，http://www.cernet20.edu.cn/family.shtml
+
+六、镜像站异动情况
+2016-11-13: 新浪镜像站全网无法访问，由 17ce 提供测试结果
+2016-11-13: 北京交通大学镜像首页访问出现 403Forbidden
+2016-11-13: 哈尔滨工业大学镜像目录被清空
+2016-11-13: 中国地质大学镜像站全网无法访问，由 17ce 提供测试结果
+2016-11-13: 北京化工大学镜像站全网无法访问，由 17ce 提供测试结果
+2016-11-13: 云南大学 pypi 镜像地址无法访问
+2016-11-13:Linux 运维派镜像首页访问出现 404
+2016-11-26: 新浪镜像站截至目前已经失联 51 天，移至关闭列表
+2016-11-26: 首都在线移至企业站列表，首都在线是国内的一家主机商，有国内节点和海外节点
+2016-12-10: 哈尔滨工业大学镜像目录截至目前已经超过一个月无法访问，移至关闭列表
+2017-1-5: 北京化工大学镜像截至目前已经超过两个月无法访问，移至关闭列表
+2017-1-5: 中国地质大学镜像截至目前已经超过两个月无法访问，移至关闭列表
+2017-1-5: 新增南京信息职业技术学院镜像，这个镜像在 2016 年 11 上线
+2017-1-5: 新增龙芯开源社区镜像，这个镜像应该是很早（2015 年之前）就建立了只是不对外，目前只更新龙芯镜像
+2017-1-6: 新增上海交通大学 SJTUG 镜像，据 v2ex 上的消息，这个镜像于 2016 年上线用来替代原来的上海交通大学镜像，不过目前这个镜像的发展情况也不乐观
+2017-5-17:cnnic 镜像，腾讯 bugly 镜像于 2017 年 4 月关闭
+2017-5-17: 海波镜像于 2017 年 5 月关闭，新增南京邮电大学通达学院、燕山大学、黔东南开源镜像站 3 个镜像
+2017-5-17: 新增南京邮电大学镜像
+2018-1-19:ubuntu 的 cn 子域 cn.archive.ubuntu.com 不再指向阿里云，改为指向美国 IP(91.189.91.26)（18 号 DNS 切换，全网无法正确解析）
+2018-5-16: 更新上海交通大学 SJTUG 镜像，新地址已经包含了原先的 ftp.sjtu.edu.cn 大多数镜像，且新增了大量现代源
+2020-11-2: 清华大学和中国科技大学 11 月 30 日接到热心用户投诉，移除了 deepin 软件源，原因是设计商业软件重分发授权。参见：https://bbs.deepin.org/post/204649
+2020-11-2: 东北大学镜像通过近两年来的访问监测，2017 年后无更新内容，移动到关闭列表。
+2020-11-17: 哈尔滨工业大学镜像重开
+2021-2-5: 因 Oracle JDK 8u203 开始改变授权模式，无法免费商用，新增替代版免费 JDK：AdoptOpenJDK
+
 ]]></content>
       <categories>
-        <category>经典好文</category>
+        <category>教程学习</category>
       </categories>
       <tags>
-        <tag>经典好文</tag>
+        <tag>Github</tag>
       </tags>
   </entry>
   <entry>
@@ -3432,140 +3374,198 @@ Amazon 和 Netflix 这种巨型聚合商（aggregator）靠的就是帮助用户
       </tags>
   </entry>
   <entry>
-    <title>关于工作与成长的 121 条具体建议</title>
-    <url>/posts/b8b21a05.html</url>
-    <content><![CDATA[关于面对批评
-01. 没有人对被批评感到高兴。如果有，TA 撒谎。
-02. 面对批评，得体的第一反应是 “不急于**解释，不反唇相讥**”。
-03. 每天，或者最长每周养成习惯，把自己存在的问题和造成的麻烦用最重的形容词想一遍，诚实的对待自己。当被批评时，会觉得一切还在掌握之中。
-04. 很多批评的发生是因为误会。所以，首先建立情感层面的信任，其次澄清事实，然后才是消除误会。这三步能解决大部分因批评带来的关系问题。
-05. 被批评时，思考的重点应该是 “我应该从哪里入手解决问题”，而不是 “对不对”。
-06. 对 “评论” 不理不睬，对 “批评” 高度重视。
-07. 如果对批评有不同意见或者不明之处，直接问当事人的完整意见。别回避。
-关于单身生活
-08. 单身过的不愉快，有伴侣之后也不会愉快。
-09. 单身且愉快，一个重要前提是有较高收入且未来可期。
-10. 单身时最值得花时间去做的是投资一切长本事长能耐的事儿：学习、进修、放纵好奇心，因为在有伴侣以后很难再有大块时间可以自由支配。
-11. 拥有联系非常紧密的至交好友，且能够共同成长，两个条件缺一不可。不够紧密则对彼此生活缺少实际支持，不能同步成长则无法长期维持关系。
-12. 建立自己的生活秩序，但要有弹性。弹性是指随时可以接纳一个因伴侣而带来的新秩序。很多人被动长期单身的原因是因为沉浸在自己的世界里、过度缺乏弹性以至于无法接纳别人。
-13. 积极参加有意思的社交活动，认识陌生人，多交朋友。
-14. 尽快建立一套自己的 “生活资源系统”：从保姆小时工到相熟的专车司机、发型师、健身教练、全科医生、可 24 小时喊出来帮忙的亲友、直到旅行代理人，把自己的生活置入一种由专业人士服务的环境中。
-15. 无论以戏谑或者认真的方式哭诉单身狗的身份，都应该尽量减少。因为最有吸引力的单身是貌似不知道是否真的单身的单身男女。
-16. 即使非常享受单身生活，也要保持 “可勾搭” 的待机状态，因为促进荷尔蒙分泌有益身心健康。
-17. 选择偏保守的理财方式，给自己买足额的大病保险，小心对待自己的钱。
-18. 和婚姻生活质量较高的人交朋友，人在面临重大选择时需要榜样和示范。
-19. 不要上来就用长期关系的标准来要求对方，关系是递进的：可见、可约、可睡、可长期交往，然后才是可固定长期关系。在不同阶段，标准不一样。
-20. 多参加打球、逛街、饭局、旅行，少参加茶会、禅修、面壁，不要给自己机会沉浸在自怨自怜伤春悲秋的情绪里。
-21. 主动点。对一切事。
-关于个人形象管理
-22. 对普通人来说，“好看” 的意思其实等同于 “体面”。做到体面，完全是任何人能力范围内的事情。并非苛求。
-23. 认真看两部《Suits》这样的职场美剧，就知道形象管理的红线在哪里。
-24. 清洁是最低标准。对于在现代化城市工作生活的职场人来说，清洁的定义就是每天洗澡每天换衣服擦皮鞋。
-25. 你看起来像什么地位，你就是什么地位。
-26. 请看起来形象最好的朋友推荐发型师，然后和发型师成为朋友。考察一个好发型师的标准之一是他会给你相对而言最简单的方案而不是最贵的。
-27. 把衣服的数量最小化，然后把单价提高到力所能及范围内的最高。
-28. 尽快找出自己的 “基本形象”：任何人都会有一个最佳穿衣模式，固定下来。范冰冰也得把胳膊大腿挡起来的时候才最好看。只是大多数人因为不够自信而不肯把问题简单化，总是在做无谓的尝试。
-29. 在职场露乳沟、露腋毛、露半拉屁股，都跟美丑无关，只是不体面。
-30. 健身可以帮助你更好的认知自己的身体，再贵的衣服也纠正不了驼背弯腰的仪态。
-31. 总体而言修身（不是紧身）的造型对男女来说都会显得人更精神。
-32. 不存在减不掉的体重，只是有没有纪律的问题。
-33. 一个人从里到外让人有 “看起来好干净” 的感觉，是一种极高的形象水平。这一条对老头儿都适用。
-34. 那些质疑个人形象管理重要性的人从来都不会知道因为糟糕的形象而损失了什么。
-关于重大选择
-面临事业、婚姻等等改变人生轨迹的重大选择时，我的心法，仅供参考。
-35. 尽自身最大努力做到有钱、好看、有本事、受欢迎，手里的牌多一些，做选择的主动性就高一些。
-36. 选择大于能力。有人管这个就叫 “命运”。其实是一种长期被忽略的能力：关键时刻快速做出最优选择的能力。
-37. 最优选择就是对个人远期价值最大化的选择。过于关注当下利益往往是人生的大坑。那些抱着要给未来的孩子找个好爸爸的女生在婚姻生活中往往过得比寻找最佳男朋友的女生要好，就是这个原理。
-38. 成大事者不纠结。一旦决定，全力以赴。
-39. 掌握 “概率权”。两张牌，一张掀起来保证给你一百万美金，另一张有百分之五十的概率有 1 个亿美金，或者为零。想清楚，选哪张？怎么选？
-40. 可以征求别人的意见。但是这个 “别人” 是特指那些你由衷佩服和学习的对象。
-41. 无论别人给你什么意见，都要记住决定是你自己的。不要依赖别人，更不要把后果归罪于外。
-42. 远离安全的舒适区。
-43. 远离颠倒梦想，乐于动手做具体事，少想，多干。
-44. 做选择时不要只看自己，要看如果做了一个决定之后，你会和什么样的人混在一起。事业选择这一点尤为重要。
-关于人际关系
-45. 良性的人际关系只有一种，叫做独立自主、强强联合。从来就没有抱团取暖这回事。
-46. 做到对别人有价值，是建立良性人际关系的前提，哪怕是暂时只创造了微小的价值，也有价值。
-47. 所有关系中最多正向循环最少事后负担的，是交易关系。市场最残酷但也最善意。
-48. 所有关系中最危险最有破坏力的，是纯感情关系。所以，一段关系要想良性发展，要有能力从纯感情喂养，发展成 “复合材料”：比如就婚姻而言，激情不长久，但是双方可以成为共同成长的伙伴，或者某个具体目标的合作者。甚至就亲子关系而言，也可以发展出协同学习的伙伴关系。
-49. 不成为别人的负担。这包括了不成为别人的心理和时间负担，接受别人对自己的不接受。
-50. 对自己负责。这包括了对自己的选择和决定负责，承受由之而来的任何结果。
-51. 定期梳理和剖析自己的原生家庭和亲密关系。适度学习一点帮助自我认知的方法，清楚认识并且正面接受自己在人际关系中的短板和问题。大量的人际关系能力缺陷是在原生家庭中已经形成，无需自卑或者自责，因为正面接受自己是战胜这一问题的开始。而且大部分人的大部分心理障碍是可以被消除的。
-52. 第一反应是选择信任别人，但是同时保持独立思考的能力。
-53. 人际关系不仅有交互频率这一个维度，还有交互深度。熟人未必是知己。
-54. 远离巨婴、远离不具有建设性能力的人。
-55. 人际关系是一个人真实自我的外在镜像。
-关于命中贵人
-56. 贵人是那些在关键时刻给出关键点拨的人。他们有能力呈现世界的本来面目。路原来就在那里，但是没有他们的指路你就看不见。
-57. 他们之所以愿意帮你是因为他们的修行，而不是因为我的能耐和好处。
-58. 对他们最好的回报是努力成为和他们一样的人。
-59. 贵人不是等到的，是寻到的和求到的。前提是对他们而言至少你不是减分项。
-60. 以求道之心与人交往。
-61. 举手之劳、锦上添花，才是良性关系。不要求人雪中送炭。跟世态炎凉没关系，有则感谢珍惜，无则检讨自己。
-62. 务必定期让人看到帮你的结果，分享喜悦和成果。
-63. 逢年过节快递两盒点心，送一辈子，也不算有礼。若想要感谢对方，花心思观察，送出终身难忘的礼物。
-64. 不要黏着对方，不要成为别人的负担。要让对方感觉掌握关系的主动权。人家帮过你，但最怕被要求帮你一辈子。
-65. 有机会帮别人的时候，姿态放低再放低，尽量不让对方有心理压力。帮完之后，对方不提，自己不提。
-66. 也许终有一天你会超越那些你生命中曾经那么重要的人，往前看，别害怕。既往不恋。
-关于压力管理
-67. 压力是公平的。真正在入世过活的人，没有人能够置身事外。坚信这一点，不易起怨懑之心。
-68. 职场压力和生活压力无法互换消解。因此不要把压力释放错了地方。
-69. 做一个乐观的悲观主义者。因上努力，果上随缘。
-70. 充分想象最坏的结果，如果认为是无法承受的后果，一定源于自身的贪婪，果断踩刹车。君子不立危墙之下。
-71. 压力无法被替代，注意力可以被转移。到难以承受之际，刷一小时消消乐，剧烈运动两小时，都可以回血。问题依然还在。但不妨缓口气再来。
-72. 有无话不说且旗鼓相当的朋友。说出来可能是最有效的减压之道，并非有人可以安慰你，而是因为站在别人的视角重新看一遍问题会简单很多。
-73. 做不到 72，就试着把压力和问题写下来，只给自己看。然后会发现其实没有那么复杂。
-74. 永远用最直接的方式面对压力源。拖延和迂回只会让压力变大。
-75. 如果压力影响睡眠超过一星期，立即服用褪黑素。否则一个月后大概率就是抑郁症。
-76. 永远不做任何不能让别人知道的决定和交易，无论好处有多大。
-77. 不要用血拼、喝酒、嗑药、饕餮、滥交来缓解压力，否则一觉醒来你会面对压力 2.0。
-78. 把压力想象成一个具体的形象，比如一只怪兽，每处理一步，就在脑海里给丫一拳。
-关于工作习惯
-79. 自己最受益的工作习惯是做笔记。最佩服的是会面后最先共享笔记的人。
-80. 当日事当日毕能提升工作中的幸福感。
-81. 有关人的问题，都不可拖延，不要心存侥幸，认为可以避免直面冲突或对方可以心领神会。越晚着手，问题会恶化的越严重。难听话必须当面说、尽早说、直接说。
-82. 个人行动养成彩排的习惯。打腹稿、做预案。认真准备，就能发现达到一个目标的 N 种途径，行动中灵活不纠结。
-83. 团队作业养成复盘的习惯。不追究具体人责任，着眼于我们学到了什么。
-84. 如果工作性质与人打交道比较多，尽量把会议、会面集中安排在一周中的某几天，这样总时间会缩短。可以留下自己书面作业和从事内部事务的时间。
-85. 如果是管理者，每天固定拨出一些时间与团队成员做非事务性交谈。少则扯淡十几分钟亦可。养成尊重和关注人的习惯。
-86. 每天琢磨核心数据。问出好问题。
-87. 与人面对面交流时不刷手机。
-88. 开会时敢于并善于终结无实质意义的对话，直切主题。致力于达成行动共识。
-89. 准确记录与别人的约会，不迟到。
-90. 做粗略的工作计划比做详细的计划更接近实际情况，更容易被执行。
-91. 出席别人的活动，认真做事前准备，不可一套说辞走世界。准备全套的个人公开资料及时提供给主办方。尽早提交讲稿。
-92. 每天早中晚三次集中时间段处理社交媒体、邮件等方面的信息。不要随刷随到。这是最节省时间的办法。
-93. 如果是管理者，学会问和听一个好问题：你有什么想法？
-94. 购置最好的工作装备。
-95. 睁大双眼找个好搭档。和聪明人一起工作。
-关于自我成长
-96. 早晚你会知道，这个世界上没有别人。你所看到的都是你自己的认知模式创造的镜像。
-97. 与此同时你会知道，这个世界上全是别人。所谓反复追寻的 “真我” 实在是小到不能再小的东西。
-98. 同时知道并接受上述两点，自我成长这件事才真正开始。
-99. 最难的在于不断建立更高的标准，为了解决这一问题最有效的方式是不断结识更好的榜样。
-100. 在人际关系中做一个能力型 “势利眼”，向上看、向前看，与比自己优秀的人交往。
-101. 既往不恋。不回头。不怀旧。不惋惜。
-102. 以真实的、认识的人为榜样，而不是 “传说” 中的。因为真人会在每天的交往中给你真实的压力。
-103. 要寻找和接收那种叫做 “Calling” 的东西。克服 “如何怎样就很好了” 的小地主心态。
-104. 慎独。守心如镜。
-105. 每天独处时问问自己，今天有什么是比前一天做的好的。哪怕是对快递更认真的说谢谢。
-106. 不做负面表达，负面包括讽刺、抱怨、指责、争论、批评、牢骚、大话、评价议论。凡事从建设性出发。
-107. 认真记录并揣摩与别人的交往。
-108. 尽可能扩大自己的阅读面。文科生多读点科学著作，理科生不妨研究点文学艺术。阅读是为了理解人。
-109. 带徒弟是逼迫个人成长的绝招。
-110. 不相信 “适当的年龄” 这件事。除了生孩子，想做任何事情都不会被年龄限制。
-关于机会和陷阱
-111. 世界上最大的陷阱，叫做 “机会型陷阱”。
-112. 评估一下这件事对多少人有利？越是多赢的局面，越可能是个机会，反之如果只有你占尽便宜，那肯定不是机会。
-113. 想想这件事是不是很容易做到？有两种事。一种是机灵事：开头就炸，但是越来越没劲。另一种是苦逼事：开头特难，但是越干门槛越高。前者是陷阱，后者是机会。结硬寨、打呆仗是不变的真理，很容易实现的事情，是机巧，不是机会。
-114. 看忽悠你干这个事的人跟这事的关系。如果对他在精力上只是业余兼职，在财富上只是锦上添花，而你要付出全部精力，搭上全部身家。那么，要警惕是个陷阱。
-115. 周边人赞成与否不重要，但是否出手帮你很重要。一旦开始干，帮你的人越来越多的事，机会。反之，陷阱。  
-116. 因资源而启动的事，容易翻转为陷阱。因顺势而发生的事，容易找到机会。
-117. 推动社会新分工的事，也就是越来越多的人靠这事吃饭养活一家老小的事，机会。在各种裂缝中套利，除了你谁都没好处的事，陷阱。  
-118. 做成之后，容易被巨无霸们摘果子的事，陷阱。做成之后，自成体系的事，机会。换句话说，南瓜不会结在树上。有命长出来，没命 hold 住。
-119. 就算做成了，也有后遗症的事，陷阱。就算做不成，也长本事长江湖地位的事，机会。
-120. 摊在桌上打明牌也能干的事儿，机会。必须遮遮掩掩唯恐别人知道的事儿，陷阱。
-121. 你孩子长大了为你骄傲的事，机会。反之，陷阱。
+    <title>如何不靠运气致富</title>
+    <url>/posts/f276a50.html</url>
+    <content><![CDATA[一般来说，富人不会分享自己发家致富的秘密。所以，有互联网以来，我看到许多在网上教人致富的人都发了财。在英文博客界，写关于如何发财的博文成为了一个专门的门类。而真正的有钱人只会用心灵鸡汤敷衍一下大众，根本不会提供任何方法论，更不要说是致富秘诀了。
+也有例外。硅谷投资人 Naval Ravikant 在 5 月 31 日突然一口气发了 40 条语录，内容就是关于如何不靠运气而致富。随后这 40 条文字被不断转发，翻译为多国语言，这一事件史称 “推文风暴”。Naval 是印度裔移民，20 多年来一直在美国硅谷创业。他最著名的创业项目是 AngelList，世界股权众筹平台的鼻祖；他最著名的投资项目有两个，一个是 Twitter，一个是 Uber。
+奇怪的是，国内互联网上的反响并不强烈。按理说这应该是中国人最感兴趣的话题了，而且要比各种心灵鸡汤高好几个段位，为什么会遭到冷遇呢？我分析了一下原因，主要有两点：1、网上的版本翻译得不好，每个中文字都认识，连起来看就不懂了；2、致富这个话题在中文互联网里，已经被鸡汤严重污染了，所以许多人根本理解不了 Naval 在说什么。
+因此，我决定自己翻译并且注释一下 Naval 的 40 条语录：
+How to Get Rich (without getting lucky)
+《如何不靠运气致富》
+作者：Naval Ravikant
+翻译 &amp; 注释：和菜头
+
+Seek wealth, not money or status. Wealth is having assets that earn while you sleep. Money is how we transfer time and wealth. Status is your place in the social hierarchy.
+
+
+去寻求财富，而非金钱或地位。财富就是你拥有资产，而资产在你睡觉的时候都还在为你赚钱；金钱是我们转换时间和财富的工具；身份是你在社会等级体系里所处的位置。
+
+
+Understand that ethical wealth creation is possible. If you secretly despise wealth, it will elude you.
+
+
+要明白一件事：一个人完全可以不靠坑蒙拐骗站着赚取财富。如果你在暗中鄙视财富，那么财富也会躲着你。
+
+
+Ignore people playing status games. They gain status by attacking people playing wealth creation games.
+
+
+别去理会那些热衷于玩身份游戏的人，他们通过攻击那些创造财富的人以获得自己的身份。
+
+4.You’re not going to get rich renting out your time. You must own equity — a piece of a business — to gain your financial freedom.
+
+你不会通过出租自己的时间而变得富有。你必须拥有产权，也就是生意的一部分，以此才能赢得个人财务自由。
+
+5.You will get rich by giving society what it wants but do
+es not yet know how to get. At scale.
+
+提供社会大众想要但是他们还不知道如何获取的东西，你就会因此而致富。但有一点：你必须规模化地供应社会。
+
+6.Pick an industry where you can play long term games with long term people.
+
+选择一个你可以长期从事的产业，寻找一批可以一起长期共事的人。
+
+7.The Internet has massively broadened the possible space of careers. Most people haven’t figured this out yet.
+
+互联网极大拓展了一个人职业生涯的可能性。绝大多数人对此毫无认知。
+
+8.Play iterated games. All the returns in life, whether in wealth, relationships, or knowledge, come from compound interest.
+
+玩就玩复利游戏。无论是财富，人际关系或者是知识，所有你人生里获得的回报，都来自复利。
+
+9.Pick business partners with high intelligence, energy, and, above all, integrity.
+
+在选择商业合作伙伴的时候，选择那些高智商、精力旺盛的家伙，但在这一切之上，他应该是个正直诚实的人。
+
+10.Don’t partner with cynics and pessimists. Their beliefs are self-fulfilling.
+
+不要和愤世嫉俗者和悲观主义者合作，因为他们会任由坏事发生，以此证明他们的负面看法是正确的。
+
+11.Learn to sell. Learn to build. If you can do both, you will be unstoppable.
+
+学会如何销售，学会如何创建。如果你同时能做到这两件事，你的成功将无可阻挡。
+
+12.Arm yourself with specific knowledge, accountability, and leverage.
+
+用独到知识，责任感和杠杆武装自己。
+
+13.Specific knowledge is knowledge that you cannot be trained for. If society can train you, it can train someone else, and replace you.
+
+独到知识是那种不可以通过培训而获得的知识。这是因为，如果这种知识可以经由培训而得，那么其他人同样也可以，并且以此取代你。
+
+14.Specific knowledge is found by pursuing your genuine curiosity and passion rather than whatever is hot right now.
+
+在真正的好奇心和热情驱使你前进的路上，你更有可能获得独到知识，而不是在追逐潮流热点的闻风起舞脚步里。
+
+15.Building specific knowledge will feel like play to you but will look like work to others.
+
+创建独到知识的过程对于你就像是在玩，而对于别人则像是工作。
+
+16.When specific knowledge is taught, it’s through apprenticeships, not schools.
+
+不能通过学校教育教会一个人独到知识，它只能通过学徒制口传身教。
+
+17.Specific knowledge is often highly technical or creative. It cannot be outsourced or automated.
+
+独到知识通常极富技术性和创造性，因此它不能被外包或自动实现。
+
+18.Embrace accountability, and take business risks under your own name. Society will reward you with responsibility, equity, and leverage.
+
+拥抱责任感，押上自己的声誉以承担商业风险。社会也会以责任，产权和杠杆作为回报。
+
+19.The most accountable people have singular, public, and risky brands: Oprah, Trump, Kanye, Elon.
+
+最具责任感的人都具有独一无二的、世人皆知的、敢于冒险的个性特征，如奥普拉、川普、坎耶、埃隆。
+
+20.“Give me a lever long enough, and a place to stand, and I will move the earth.” — Archimedes
+
+只要给我一根足够长的杠杆，一处可以立足的地方，我就能撬起地球。——阿基米德
+
+21.Fortunes require leverage. Business leverage comes from capital, people, and products with no marginal cost of replication (code and media).
+
+财富增长需要使用杠杆。商业杠杆有三个来源：1、资本；2、人力；3、复制起来边际成本为零的产品（如：代码和媒体）。
+
+22.Capital means money. To raise money, apply your specific knowledge, with accountability, and show resulting good judgment.
+
+资本的意思就是钱。想要融资，那就运用你的独到知识，配合你责任感，展示出你良好的判断力。
+
+23.Labor means people working for you. It’s the oldest and most fought-over form of leverage. Labor leverage will impress your parents, but don’t waste your life chasing it.
+
+人力指的就是为你干活的人，它是最古老也是争夺最激烈的杠杆。人力杠杆会让你父母因为你手下有许多人为你工作而感到骄傲，但你不要浪费生命去追求这一点。
+
+24.Capital and labor are permissioned leverage. Everyone is chasing capital, but someone has to give it to you. Everyone is trying to lead, but someone has to follow you.
+
+资本和劳动力是需要征得许可才能使用的杠杆。每个人都在追逐资本，但总得有个什么人给你才行；每个人都想要领导其它人，但总得有什么人愿意跟着你才行。
+
+25.Code and media are permissionless leverage. They’re the leverage behind the newly rich. You can create software and media that works for you while you sleep.
+
+代码和媒体是无需要许可即可使用的杠杆。它们是新贵人群背后的杠杆，你可以通过自己创建的软件和媒体，在睡觉时仍然为你干活。
+
+26.An army of robots is freely available — it’s just packed in data centers for heat and space efficiency. Use it.
+
+一支机器人军团已经集结待命，只是为了节约空间和热效能，它们被打包放进数据中心。去用吧。
+
+27.If you can’t code, write books and blogs, record videos and podcasts.
+
+如果你不会编程，那你还可以写书和博客，或者做视频或者音频节目。
+
+28.Leverage is a force multiplier for your judgement.
+
+杠杆能够成倍地放大你的判断力（所产生的效能）。
+
+29.Judgement requires experience, but can be built faster by learning foundational skills.
+
+判断力需要经验，但它可以通过学习基本技能的方法更快速地建立起来。
+
+30.There is no skill called “business.” Avoid business magazines and business classes.
+
+并不存在一种叫做 “商业” 的能力。尽量避开商业杂志和商业课程。
+
+31.Study microeconomics, game theory, psychology, persuasion, ethics, mathematics, and computers.
+
+去学习微观经济学、博弈论、心理学、说服术、伦理学、数学和计算机科学。
+
+32.Reading is faster than listening. Doing is faster than watching.
+
+读比听快，做比看快。
+
+33.You should be too busy to “do coffee,” while still keeping an uncluttered calendar.
+
+你应该忙得没有社交的时间才对，与此同时你应该始终保证日程安排井井有条。  
+
+34.Set and enforce an aspirational personal hourly rate. If fixing a problem will save less than your hourly rate, ignore it. If outsourcing a task will cost less than your hourly rate, outsource it.
+
+你应该为自己设定一个有抱负的个人时薪数，并且坚持执行。如果解决一个问题所能节省下来的成本低于你的个人时薪，那就忽略这个问题好了；如果一项任务的外包成本低于你的个人时薪，就把它外包出去。
+
+35.Work as hard as you can. Even though who you work with and what you work on are more important than how hard you work.
+
+尽管你跟谁一起工作、做什么工作，要远比你的努力程度更加重要。但还是要倾尽全力去工作。
+
+36.Become the best in the world at what you do. Keep redefining what you do until this is true.
+
+你所做的事情，要努力做到世界最好。不断重新定义你在做什么，直到真的做到世界最好。
+
+37.There are no get rich quick schemes. That’s just someone else getting rich off you.
+
+这个世界上并没有快速赚钱致富的方法，如果你想要找寻这种方法，那它只会让别人从你身上赚钱致富。
+
+38.Apply specific knowledge, with leverage, and eventually you will get what you deserve.
+
+运用你的独到知识，配合上杠杆，最终你会得到你应该得到的东西。
+
+39.When you’re finally wealthy, you’ll realize that it wasn’t what you were seeking in the first place. But that’s for another day.
+
+终有一天当你变得富有，你会发现那一切并不是你最开始想要的东西。但是那就是另外一回事了。
+
+注释：
+1、财富就是你睡着觉，你的资产也在为你继续赚钱。这是一个越来越被广泛接受的定义。Naval Ravikant 是硅谷狂热的数字货币支持者，所以，他的话另有所指。从前后文来看，他所谓的资产并不等于是传统意义上的房产、股票、收藏，而是偏向于他反复提及的：软件和媒体。
+2、出租时间概念，许多人理解为打工，认为打工就是出租自己的时间以换取金钱。其实并非如此，Naval 所指的出租时间概念，指的是一个人的财富增长，是否直接关系到他的时间。一个小卖部的老板，他并不为谁打工，但是他的财富增长需要他长时间守在店里，因此，他依然是出租时间换钱。但一个淘宝点卡店老板则不同，他的点卡销售是全自动的，不需要 24 小时守着，而且也不需要只做这一样生意。这就是 Naval 所谓互联网拓宽了个人职业生涯的一个例子。
+3、equity 我翻译为产权，不是一个很好的翻法。但是 Naval 前文提到 assets，很明显，作为投资人他非常清楚地知道这两个字眼之间的区别。equity 无论是翻译为股票、权益或者是资产，原文说 “ You must own equity — a piece of a business — to gain your financial freedom.”，这是和出租时间概念做对应的。出租时间的人，在商业链条里作为生产资料出现，不拥有任何产权，也就无法通过商业行为获利，所以，我这里勉强翻译为产权。
+4、specific knowledge 我翻译为独到知识，没有翻译为特定知识、专业知识或者是特殊知识。原因是在我的理解中，specific knowledge 不是书本知识，也不是学校教授的知识，更不可能在网上免费获取。一方面，它只能提供自己实践来获取；另一方面，它只能通过前人口耳相传。这种知识是做成一件事情的关键，属于知识体系中不共的那一部分。所以，我翻译为独到知识。
+5、“Give me a lever long enough, and a place to stand, and I will move the earth.” — Archimedes 这话不像是阿基米德说的。更像是一次抬杠的结果：
+“给我一个支点，我就能撬起地球！”  
+“那么，您站在哪儿呢？”
+“好吧，给我一个支点，再给我一个站立的地方，我就能撬起地球。”
+“那么，您用空气就能撬起地球了？”
+“好吧，给我一根足够长的杠杆，一处可以立足的地方，我就可以翘起地球！”
+“那么，阿基米德先生，支点又不需要了吗？”
+“滚！”
+6、accountability 我本想翻译为 “靠谱程度”，想想还是算了。
+7、号称是 “四十条语录”，但是我就找见了 39 条。
+8、结合上下文看，Leverage 一词始终翻译为 “杠杆” 其实也不大对头。Naval 一再强调代码、博客、播客、视频节目，我觉得 Leverage 在他那里，有些时候应该相当于是个人影响力的代名词，或者可以简单理解为放大器。
+请你相信我：
+我所说的每一句话，
+都是错的
 ]]></content>
       <categories>
         <category>经典好文</category>
